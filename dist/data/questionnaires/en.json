@@ -1,0 +1,2278 @@
+{
+  "id": "preference-compass-100",
+  "version": "2.0.0",
+  "translationVersion": "1.0.0",
+  "language": "en",
+  "categories": [
+    {
+      "id": "enjoyment",
+      "name": "Enjoyment",
+      "hint": "How you enjoy things can reveal the kinds of experiences that invite you in.",
+      "questions": [
+        {
+          "id": "enjoyment-01",
+          "text": "In your free time, what are you most likely to choose?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Games"
+            },
+            {
+              "id": "o2",
+              "label": "Films or videos"
+            },
+            {
+              "id": "o3",
+              "label": "Books or articles"
+            },
+            {
+              "id": "o4",
+              "label": "Making or creating something"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-02",
+          "text": "What draws you into a game or creative work first?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Story and characters"
+            },
+            {
+              "id": "o2",
+              "label": "Exploring a world"
+            },
+            {
+              "id": "o3",
+              "label": "Building mastery"
+            },
+            {
+              "id": "o4",
+              "label": "Sharing the experience"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-03",
+          "text": "When choosing something new, what feels best?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A familiar pattern"
+            },
+            {
+              "id": "o2",
+              "label": "Something slightly new"
+            },
+            {
+              "id": "o3",
+              "label": "Something unfamiliar"
+            },
+            {
+              "id": "o4",
+              "label": "A completely unknown experience"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-04",
+          "text": "How much direction do you want in a game?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Let me discover everything"
+            },
+            {
+              "id": "o2",
+              "label": "Give me small clues"
+            },
+            {
+              "id": "o3",
+              "label": "Make the goal clear"
+            },
+            {
+              "id": "o4",
+              "label": "Guide me step by step"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-05",
+          "text": "What level of difficulty feels right?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Very little chance of failure"
+            },
+            {
+              "id": "o2",
+              "label": "Solvable with a little thought"
+            },
+            {
+              "id": "o3",
+              "label": "Several attempts before success"
+            },
+            {
+              "id": "o4",
+              "label": "A demanding challenge"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-06",
+          "text": "How much intensity do you want from content?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Quiet and calming"
+            },
+            {
+              "id": "o2",
+              "label": "Gentle variation"
+            },
+            {
+              "id": "o3",
+              "label": "Clear peaks and changes"
+            },
+            {
+              "id": "o4",
+              "label": "A powerful emotional impact"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-07",
+          "text": "What kind of ending do you prefer?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Clear and resolved"
+            },
+            {
+              "id": "o2",
+              "label": "Some lingering questions"
+            },
+            {
+              "id": "o3",
+              "label": "Open to interpretation"
+            },
+            {
+              "id": "o4",
+              "label": "No definitive answer"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-08",
+          "text": "How do you feel about revisiting the same work?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Repetition makes it richer"
+            },
+            {
+              "id": "o2",
+              "label": "I often return to favorites"
+            },
+            {
+              "id": "o3",
+              "label": "I return occasionally"
+            },
+            {
+              "id": "o4",
+              "label": "I usually choose something new"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-09",
+          "text": "What content length feels most comfortable?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A few minutes"
+            },
+            {
+              "id": "o2",
+              "label": "30–60 minutes"
+            },
+            {
+              "id": "o3",
+              "label": "Several hours"
+            },
+            {
+              "id": "o4",
+              "label": "Something that unfolds over days or weeks"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-10",
+          "text": "How much social involvement do you want while having fun?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A solo experience"
+            },
+            {
+              "id": "o2",
+              "label": "Share thoughts afterward"
+            },
+            {
+              "id": "o3",
+              "label": "Sometimes do it together"
+            },
+            {
+              "id": "o4",
+              "label": "Always experience it with others"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": "Color & light",
+      "hint": "This looks at both the colors you like and the job you want color to do.",
+      "questions": [
+        {
+          "id": "color-01",
+          "text": "What overall screen brightness feels most comfortable?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Light background"
+            },
+            {
+              "id": "o2",
+              "label": "Mostly light"
+            },
+            {
+              "id": "o3",
+              "label": "Mostly dark"
+            },
+            {
+              "id": "o4",
+              "label": "Dark background"
+            }
+          ]
+        },
+        {
+          "id": "color-02",
+          "text": "How vivid should the colors be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Nearly monochrome"
+            },
+            {
+              "id": "o2",
+              "label": "Soft and muted"
+            },
+            {
+              "id": "o3",
+              "label": "Moderately vivid"
+            },
+            {
+              "id": "o4",
+              "label": "Bold and saturated"
+            }
+          ]
+        },
+        {
+          "id": "color-03",
+          "text": "Which color temperature attracts you most?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Cool blues and blue-greens"
+            },
+            {
+              "id": "o2",
+              "label": "Warm reds, oranges, and yellows"
+            },
+            {
+              "id": "o3",
+              "label": "Neutral white, black, and gray"
+            },
+            {
+              "id": "o4",
+              "label": "It depends on the context"
+            }
+          ]
+        },
+        {
+          "id": "color-04",
+          "text": "How many colors should appear on one screen?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Mostly one or two"
+            },
+            {
+              "id": "o2",
+              "label": "A small palette"
+            },
+            {
+              "id": "o3",
+              "label": "Several functional colors"
+            },
+            {
+              "id": "o4",
+              "label": "A broad, varied palette"
+            }
+          ]
+        },
+        {
+          "id": "color-05",
+          "text": "How strongly should important actions or information stand out?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Blend into the surroundings"
+            },
+            {
+              "id": "o2",
+              "label": "A subtle distinction"
+            },
+            {
+              "id": "o3",
+              "label": "Immediately noticeable"
+            },
+            {
+              "id": "o4",
+              "label": "Demand attention"
+            }
+          ]
+        },
+        {
+          "id": "color-06",
+          "text": "How do you feel about gradients and glossy effects?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Better without them"
+            },
+            {
+              "id": "o2",
+              "label": "Use very sparingly"
+            },
+            {
+              "id": "o3",
+              "label": "Welcome in key places"
+            },
+            {
+              "id": "o4",
+              "label": "Use them as a strong feature"
+            }
+          ]
+        },
+        {
+          "id": "color-07",
+          "text": "Which color combination appeals to you most?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Blue with white or gray"
+            },
+            {
+              "id": "o2",
+              "label": "Green with natural tones"
+            },
+            {
+              "id": "o3",
+              "label": "Warm colors with deep tones"
+            },
+            {
+              "id": "o4",
+              "label": "Black and white with one accent"
+            }
+          ]
+        },
+        {
+          "id": "color-08",
+          "text": "Which use of color would you most want to avoid?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "So faint that text is hard to read"
+            },
+            {
+              "id": "o2",
+              "label": "Too many loud primary colors"
+            },
+            {
+              "id": "o3",
+              "label": "So dark that it feels heavy"
+            },
+            {
+              "id": "o4",
+              "label": "No consistent concern"
+            }
+          ]
+        },
+        {
+          "id": "color-09",
+          "text": "How much should color communicate different states?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Do not rely on color"
+            },
+            {
+              "id": "o2",
+              "label": "Use color as support"
+            },
+            {
+              "id": "o3",
+              "label": "Use clear color categories"
+            },
+            {
+              "id": "o4",
+              "label": "Make color the primary cue"
+            }
+          ]
+        },
+        {
+          "id": "color-10",
+          "text": "What role should color prioritize?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Organizing information"
+            },
+            {
+              "id": "o2",
+              "label": "Mostly function"
+            },
+            {
+              "id": "o3",
+              "label": "Mostly atmosphere"
+            },
+            {
+              "id": "o4",
+              "label": "Emotion and world-building"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "name": "Shape & layout",
+      "hint": "Edges, space, and alignment become practical conditions for interface design.",
+      "questions": [
+        {
+          "id": "shape-01",
+          "text": "How should the corners of buttons and cards look?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Very rounded"
+            },
+            {
+              "id": "o2",
+              "label": "Slightly rounded"
+            },
+            {
+              "id": "o3",
+              "label": "Almost square"
+            },
+            {
+              "id": "o4",
+              "label": "Sharp and geometric"
+            }
+          ]
+        },
+        {
+          "id": "shape-02",
+          "text": "How balanced should the left and right sides of a screen be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Deliberately uneven"
+            },
+            {
+              "id": "o2",
+              "label": "Slightly asymmetric"
+            },
+            {
+              "id": "o3",
+              "label": "Mostly aligned"
+            },
+            {
+              "id": "o4",
+              "label": "Strictly balanced and aligned"
+            }
+          ]
+        },
+        {
+          "id": "shape-03",
+          "text": "How much space should surround information?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Plenty of open space"
+            },
+            {
+              "id": "o2",
+              "label": "Some extra breathing room"
+            },
+            {
+              "id": "o3",
+              "label": "Fairly compact"
+            },
+            {
+              "id": "o4",
+              "label": "As compact as practical"
+            }
+          ]
+        },
+        {
+          "id": "shape-04",
+          "text": "How much should cards or borders contain information?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Let content flow without borders"
+            },
+            {
+              "id": "o2",
+              "label": "Use very few containers"
+            },
+            {
+              "id": "o3",
+              "label": "Group related content"
+            },
+            {
+              "id": "o4",
+              "label": "Divide everything clearly"
+            }
+          ]
+        },
+        {
+          "id": "shape-05",
+          "text": "How should sections be separated?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Whitespace alone"
+            },
+            {
+              "id": "o2",
+              "label": "Thin lines"
+            },
+            {
+              "id": "o3",
+              "label": "Different background colors"
+            },
+            {
+              "id": "o4",
+              "label": "Shadows or depth"
+            }
+          ]
+        },
+        {
+          "id": "shape-06",
+          "text": "How regular should the layout be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Organic and free"
+            },
+            {
+              "id": "o2",
+              "label": "Slightly irregular"
+            },
+            {
+              "id": "o3",
+              "label": "A tidy grid"
+            },
+            {
+              "id": "o4",
+              "label": "Strict repetition"
+            }
+          ]
+        },
+        {
+          "id": "shape-07",
+          "text": "How many items should be visible at once?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A few large items"
+            },
+            {
+              "id": "o2",
+              "label": "A limited set"
+            },
+            {
+              "id": "o3",
+              "label": "Many items"
+            },
+            {
+              "id": "o4",
+              "label": "Prioritize seeing the full list"
+            }
+          ]
+        },
+        {
+          "id": "shape-08",
+          "text": "How expressive should icons be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Purely symbolic"
+            },
+            {
+              "id": "o2",
+              "label": "Simple and neutral"
+            },
+            {
+              "id": "o3",
+              "label": "A little personality"
+            },
+            {
+              "id": "o4",
+              "label": "Playful and expressive"
+            }
+          ]
+        },
+        {
+          "id": "shape-09",
+          "text": "How strong should the differences between headings be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Keep them subtle"
+            },
+            {
+              "id": "o2",
+              "label": "Use gentle differences"
+            },
+            {
+              "id": "o3",
+              "label": "Show a clear hierarchy"
+            },
+            {
+              "id": "o4",
+              "label": "Use bold changes in size and weight"
+            }
+          ]
+        },
+        {
+          "id": "shape-10",
+          "text": "How much decorative pattern or geometry should appear?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "None"
+            },
+            {
+              "id": "o2",
+              "label": "A trace in the background"
+            },
+            {
+              "id": "o3",
+              "label": "Some at key moments"
+            },
+            {
+              "id": "o4",
+              "label": "Enough to establish a world or mood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "information",
+      "name": "Information",
+      "hint": "How much, in what order, and in which form information becomes easiest to understand.",
+      "questions": [
+        {
+          "id": "information-01",
+          "text": "When approaching a new topic, what do you want first?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A one-sentence point"
+            },
+            {
+              "id": "o2",
+              "label": "A short overview"
+            },
+            {
+              "id": "o3",
+              "label": "The structure and key points"
+            },
+            {
+              "id": "o4",
+              "label": "A detailed account with background"
+            }
+          ]
+        },
+        {
+          "id": "information-02",
+          "text": "In what order should a conclusion and its explanation appear?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Conclusion only or first"
+            },
+            {
+              "id": "o2",
+              "label": "Conclusion, then a short reason"
+            },
+            {
+              "id": "o3",
+              "label": "Conclusion, then full explanation"
+            },
+            {
+              "id": "o4",
+              "label": "Build from the premises to the conclusion"
+            }
+          ]
+        },
+        {
+          "id": "information-03",
+          "text": "How should long content be divided?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Keep the flow uninterrupted"
+            },
+            {
+              "id": "o2",
+              "label": "Use a few sections"
+            },
+            {
+              "id": "o3",
+              "label": "Use frequent headings"
+            },
+            {
+              "id": "o4",
+              "label": "Use a strict numbered structure"
+            }
+          ]
+        },
+        {
+          "id": "information-04",
+          "text": "How should specialist terminology be handled?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Replace it with everyday words"
+            },
+            {
+              "id": "o2",
+              "label": "Add a short explanation"
+            },
+            {
+              "id": "o3",
+              "label": "Use standard field terms"
+            },
+            {
+              "id": "o4",
+              "label": "Use precise specialist language"
+            }
+          ]
+        },
+        {
+          "id": "information-05",
+          "text": "Which format makes comparisons easiest for you?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Short prose"
+            },
+            {
+              "id": "o2",
+              "label": "Bullet points"
+            },
+            {
+              "id": "o3",
+              "label": "A table"
+            },
+            {
+              "id": "o4",
+              "label": "A diagram or chart"
+            }
+          ]
+        },
+        {
+          "id": "information-06",
+          "text": "How much supporting detail should be visible immediately?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Reveal it only when needed"
+            },
+            {
+              "id": "o2",
+              "label": "Show only important notes"
+            },
+            {
+              "id": "o3",
+              "label": "Show most supporting detail"
+            },
+            {
+              "id": "o4",
+              "label": "Show as much as possible at once"
+            }
+          ]
+        },
+        {
+          "id": "information-07",
+          "text": "How much should explanations rely on examples?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Lead with examples"
+            },
+            {
+              "id": "o2",
+              "label": "Use many examples"
+            },
+            {
+              "id": "o3",
+              "label": "Balance concepts and examples"
+            },
+            {
+              "id": "o4",
+              "label": "Lead with principles and concepts"
+            }
+          ]
+        },
+        {
+          "id": "information-08",
+          "text": "How should numbers be shown?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Rounded estimates"
+            },
+            {
+              "id": "o2",
+              "label": "Only the key figures"
+            },
+            {
+              "id": "o3",
+              "label": "Exact values"
+            },
+            {
+              "id": "o4",
+              "label": "Exact values with access to source data"
+            }
+          ]
+        },
+        {
+          "id": "information-09",
+          "text": "How visible should sources and evidence be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Only when requested"
+            },
+            {
+              "id": "o2",
+              "label": "Collected at the end"
+            },
+            {
+              "id": "o3",
+              "label": "Placed near each claim"
+            },
+            {
+              "id": "o4",
+              "label": "Fully traceable throughout"
+            }
+          ]
+        },
+        {
+          "id": "information-10",
+          "text": "How should uncertainty be presented?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Preserve the flow"
+            },
+            {
+              "id": "o2",
+              "label": "Add a brief caveat"
+            },
+            {
+              "id": "o3",
+              "label": "State confidence clearly"
+            },
+            {
+              "id": "o4",
+              "label": "Separate every unknown in detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interaction",
+      "name": "Control",
+      "hint": "Where you want the system to act for you, and where you want to stay in control.",
+      "questions": [
+        {
+          "id": "interaction-01",
+          "text": "On an unfamiliar screen, how much guidance do you want?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Let me discover it"
+            },
+            {
+              "id": "o2",
+              "label": "Give me a short hint"
+            },
+            {
+              "id": "o3",
+              "label": "Show the steps"
+            },
+            {
+              "id": "o4",
+              "label": "Guide me one step at a time"
+            }
+          ]
+        },
+        {
+          "id": "interaction-02",
+          "text": "How many choices should appear at once?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Two or three"
+            },
+            {
+              "id": "o2",
+              "label": "Four or five"
+            },
+            {
+              "id": "o3",
+              "label": "Six to nine"
+            },
+            {
+              "id": "o4",
+              "label": "As many as possible in one view"
+            }
+          ]
+        },
+        {
+          "id": "interaction-03",
+          "text": "How important is undo?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Rarely needed"
+            },
+            {
+              "id": "o2",
+              "label": "Needed for major actions"
+            },
+            {
+              "id": "o3",
+              "label": "Needed for most actions"
+            },
+            {
+              "id": "o4",
+              "label": "I must always be able to go back"
+            }
+          ]
+        },
+        {
+          "id": "interaction-04",
+          "text": "How should default settings work?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Choose automatically"
+            },
+            {
+              "id": "o2",
+              "label": "Use recommended settings"
+            },
+            {
+              "id": "o3",
+              "label": "Let me review the main choices"
+            },
+            {
+              "id": "o4",
+              "label": "Let me set everything myself"
+            }
+          ]
+        },
+        {
+          "id": "interaction-05",
+          "text": "Which input method do you use most?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Tap or click"
+            },
+            {
+              "id": "o2",
+              "label": "Keyboard"
+            },
+            {
+              "id": "o3",
+              "label": "Voice"
+            },
+            {
+              "id": "o4",
+              "label": "A mix depending on the situation"
+            }
+          ]
+        },
+        {
+          "id": "interaction-06",
+          "text": "How often should the system confirm before an important action?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Proceed without confirmation"
+            },
+            {
+              "id": "o2",
+              "label": "Skip confirmation if undo is available"
+            },
+            {
+              "id": "o3",
+              "label": "Confirm only high-impact actions"
+            },
+            {
+              "id": "o4",
+              "label": "Always ask clearly"
+            }
+          ]
+        },
+        {
+          "id": "interaction-07",
+          "text": "Where should primary functions appear?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Only when needed"
+            },
+            {
+              "id": "o2",
+              "label": "Organized inside menus"
+            },
+            {
+              "id": "o3",
+              "label": "Always visible on screen"
+            },
+            {
+              "id": "o4",
+              "label": "Everything immediately available"
+            }
+          ]
+        },
+        {
+          "id": "interaction-08",
+          "text": "How much customization should be available?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Choose for me"
+            },
+            {
+              "id": "o2",
+              "label": "A few settings"
+            },
+            {
+              "id": "o3",
+              "label": "Let me change the main behavior"
+            },
+            {
+              "id": "o4",
+              "label": "Let me adjust fine details"
+            }
+          ]
+        },
+        {
+          "id": "interaction-09",
+          "text": "How should an error be communicated?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Reassure me before explaining"
+            },
+            {
+              "id": "o2",
+              "label": "State the point gently"
+            },
+            {
+              "id": "o3",
+              "label": "Make the cause clear"
+            },
+            {
+              "id": "o4",
+              "label": "Describe the problem directly and fully"
+            }
+          ]
+        },
+        {
+          "id": "interaction-10",
+          "text": "How should entered content be saved?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Only when I save it"
+            },
+            {
+              "id": "o2",
+              "label": "Ask before saving"
+            },
+            {
+              "id": "o3",
+              "label": "Autosave and notify me"
+            },
+            {
+              "id": "o4",
+              "label": "Continuously autosave"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "name": "Motion & feedback",
+      "hint": "The range in which speed, motion, and notifications feel supportive rather than distracting.",
+      "questions": [
+        {
+          "id": "feedback-01",
+          "text": "How much animation should an interface use?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "None"
+            },
+            {
+              "id": "o2",
+              "label": "The minimum"
+            },
+            {
+              "id": "o3",
+              "label": "Motion with a clear purpose"
+            },
+            {
+              "id": "o4",
+              "label": "Rich and expressive motion"
+            }
+          ]
+        },
+        {
+          "id": "feedback-02",
+          "text": "How quickly should screens change?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Slow enough to take in"
+            },
+            {
+              "id": "o2",
+              "label": "A calm pace"
+            },
+            {
+              "id": "o3",
+              "label": "Quick and crisp"
+            },
+            {
+              "id": "o4",
+              "label": "Nearly instant"
+            }
+          ]
+        },
+        {
+          "id": "feedback-03",
+          "text": "What should appear while you wait?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A quiet loading state"
+            },
+            {
+              "id": "o2",
+              "label": "A simple sign of activity"
+            },
+            {
+              "id": "o3",
+              "label": "A progress percentage"
+            },
+            {
+              "id": "o4",
+              "label": "Details of what is happening"
+            }
+          ]
+        },
+        {
+          "id": "feedback-04",
+          "text": "How do you feel about interface sounds?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "No sounds"
+            },
+            {
+              "id": "o2",
+              "label": "Warnings only"
+            },
+            {
+              "id": "o3",
+              "label": "Fine if subtle"
+            },
+            {
+              "id": "o4",
+              "label": "Use them actively"
+            }
+          ]
+        },
+        {
+          "id": "feedback-05",
+          "text": "What should happen when a task is completed?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Only update the state"
+            },
+            {
+              "id": "o2",
+              "label": "Show a short notice"
+            },
+            {
+              "id": "o3",
+              "label": "Add a small celebration"
+            },
+            {
+              "id": "o4",
+              "label": "Make the achievement feel substantial"
+            }
+          ]
+        },
+        {
+          "id": "feedback-06",
+          "text": "How much should controls react when touched or hovered?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "No effect"
+            },
+            {
+              "id": "o2",
+              "label": "A color change"
+            },
+            {
+              "id": "o3",
+              "label": "A small movement"
+            },
+            {
+              "id": "o4",
+              "label": "A clear animated response"
+            }
+          ]
+        },
+        {
+          "id": "feedback-07",
+          "text": "How much progress detail should a long task show?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Tell me only when it is done"
+            },
+            {
+              "id": "o2",
+              "label": "Show the current stage"
+            },
+            {
+              "id": "o3",
+              "label": "Always show a percentage"
+            },
+            {
+              "id": "o4",
+              "label": "Show a detailed activity history"
+            }
+          ]
+        },
+        {
+          "id": "feedback-08",
+          "text": "How often should the system notify you?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Only for important events"
+            },
+            {
+              "id": "o2",
+              "label": "Very sparingly"
+            },
+            {
+              "id": "o3",
+              "label": "At useful intervals"
+            },
+            {
+              "id": "o4",
+              "label": "For small changes too"
+            }
+          ]
+        },
+        {
+          "id": "feedback-09",
+          "text": "How long should transitions and effects last?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Leave room for the moment"
+            },
+            {
+              "id": "o2",
+              "label": "A little slower"
+            },
+            {
+              "id": "o3",
+              "label": "Keep them brief"
+            },
+            {
+              "id": "o4",
+              "label": "Make them almost immediate"
+            }
+          ]
+        },
+        {
+          "id": "feedback-10",
+          "text": "How strongly should a changed state be indicated?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Let it blend naturally"
+            },
+            {
+              "id": "o2",
+              "label": "Use a small notice"
+            },
+            {
+              "id": "o3",
+              "label": "Highlight it clearly"
+            },
+            {
+              "id": "o4",
+              "label": "Use several reinforcing cues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "name": "Language & dialogue",
+      "hint": "The temperature, distance, and precision you want from writing and AI conversation.",
+      "questions": [
+        {
+          "id": "language-01",
+          "text": "What tone of voice do you prefer?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Friendly and conversational"
+            },
+            {
+              "id": "o2",
+              "label": "Somewhat casual"
+            },
+            {
+              "id": "o3",
+              "label": "Polite and natural"
+            },
+            {
+              "id": "o4",
+              "label": "Formal and exact"
+            }
+          ]
+        },
+        {
+          "id": "language-02",
+          "text": "How much emotional warmth should the writing show?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Neutral and matter-of-fact"
+            },
+            {
+              "id": "o2",
+              "label": "Slightly warm"
+            },
+            {
+              "id": "o3",
+              "label": "Warm and attentive"
+            },
+            {
+              "id": "o4",
+              "label": "Strongly empathetic"
+            }
+          ]
+        },
+        {
+          "id": "language-03",
+          "text": "How long should a typical answer be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "The shortest useful answer"
+            },
+            {
+              "id": "o2",
+              "label": "Concise"
+            },
+            {
+              "id": "o3",
+              "label": "A full explanation"
+            },
+            {
+              "id": "o4",
+              "label": "Comprehensive and detailed"
+            }
+          ]
+        },
+        {
+          "id": "language-04",
+          "text": "How should criticism or disagreement be expressed?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Soften it carefully"
+            },
+            {
+              "id": "o2",
+              "label": "Use considerate language"
+            },
+            {
+              "id": "o3",
+              "label": "State it clearly"
+            },
+            {
+              "id": "o4",
+              "label": "Lead directly with the core issue"
+            }
+          ]
+        },
+        {
+          "id": "language-05",
+          "text": "How much humor do you want?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "None"
+            },
+            {
+              "id": "o2",
+              "label": "Very occasionally"
+            },
+            {
+              "id": "o3",
+              "label": "Include it naturally"
+            },
+            {
+              "id": "o4",
+              "label": "Make the exchange playful"
+            }
+          ]
+        },
+        {
+          "id": "language-06",
+          "text": "How much should explanations use metaphor or story?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Prefer concrete facts"
+            },
+            {
+              "id": "o2",
+              "label": "Use a little as support"
+            },
+            {
+              "id": "o3",
+              "label": "Use it to aid understanding"
+            },
+            {
+              "id": "o4",
+              "label": "I enjoy strongly metaphorical expression"
+            }
+          ]
+        },
+        {
+          "id": "language-07",
+          "text": "How proactive should an AI be with suggestions?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Only when asked"
+            },
+            {
+              "id": "o2",
+              "label": "Occasionally when needed"
+            },
+            {
+              "id": "o3",
+              "label": "Anticipate useful next steps"
+            },
+            {
+              "id": "o4",
+              "label": "Actively broaden the options"
+            }
+          ]
+        },
+        {
+          "id": "language-08",
+          "text": "What should an AI do when it is uncertain?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Give the single best answer"
+            },
+            {
+              "id": "o2",
+              "label": "Add a brief caveat"
+            },
+            {
+              "id": "o3",
+              "label": "State confidence and alternatives"
+            },
+            {
+              "id": "o4",
+              "label": "Explain the uncertainty in detail"
+            }
+          ]
+        },
+        {
+          "id": "language-09",
+          "text": "How should jargon and abbreviations be used?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Avoid them"
+            },
+            {
+              "id": "o2",
+              "label": "Always explain them"
+            },
+            {
+              "id": "o3",
+              "label": "Use common field terms"
+            },
+            {
+              "id": "o4",
+              "label": "Use precise expert terminology"
+            }
+          ]
+        },
+        {
+          "id": "language-10",
+          "text": "Should an AI ask questions or make progress?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Make a proposal and proceed"
+            },
+            {
+              "id": "o2",
+              "label": "State assumptions and proceed"
+            },
+            {
+              "id": "o3",
+              "label": "Ask at important points"
+            },
+            {
+              "id": "o4",
+              "label": "Clarify thoroughly before proceeding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "name": "Thinking & decisions",
+      "hint": "What you want to see on the way to a conclusion, and how much uncertainty you want to explore.",
+      "questions": [
+        {
+          "id": "decision-01",
+          "text": "How many options should be considered?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "One leading option"
+            },
+            {
+              "id": "o2",
+              "label": "Two or three options"
+            },
+            {
+              "id": "o3",
+              "label": "Several compared options"
+            },
+            {
+              "id": "o4",
+              "label": "A broad range of possibilities"
+            }
+          ]
+        },
+        {
+          "id": "decision-02",
+          "text": "How much evidence do you want for a decision?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Prioritize intuition"
+            },
+            {
+              "id": "o2",
+              "label": "Check the main points"
+            },
+            {
+              "id": "o3",
+              "label": "Compare the evidence"
+            },
+            {
+              "id": "o4",
+              "label": "Inspect primary sources"
+            }
+          ]
+        },
+        {
+          "id": "decision-03",
+          "text": "How do you approach a new method?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Use proven methods"
+            },
+            {
+              "id": "o2",
+              "label": "Test it safely on a small scale"
+            },
+            {
+              "id": "o3",
+              "label": "Try it when the upside is plausible"
+            },
+            {
+              "id": "o4",
+              "label": "Experiment boldly and accept failure"
+            }
+          ]
+        },
+        {
+          "id": "decision-04",
+          "text": "How much planning should happen before building?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Start and learn by doing"
+            },
+            {
+              "id": "o2",
+              "label": "Set only the broad direction"
+            },
+            {
+              "id": "o3",
+              "label": "Organize the steps"
+            },
+            {
+              "id": "o4",
+              "label": "Design in detail first"
+            }
+          ]
+        },
+        {
+          "id": "decision-05",
+          "text": "How do you enter a complex problem?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Start with a concrete example"
+            },
+            {
+              "id": "o2",
+              "label": "Gather the facts"
+            },
+            {
+              "id": "o3",
+              "label": "Map the structure"
+            },
+            {
+              "id": "o4",
+              "label": "Begin from principles and assumptions"
+            }
+          ]
+        },
+        {
+          "id": "decision-06",
+          "text": "When choosing between an established method and a new idea?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Preserve the established method"
+            },
+            {
+              "id": "o2",
+              "label": "Improve it incrementally"
+            },
+            {
+              "id": "o3",
+              "label": "Prefer the new approach"
+            },
+            {
+              "id": "o4",
+              "label": "Redesign from the premises"
+            }
+          ]
+        },
+        {
+          "id": "decision-07",
+          "text": "What matters most when comparing options?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Advantages and disadvantages"
+            },
+            {
+              "id": "o2",
+              "label": "Cost and benefit"
+            },
+            {
+              "id": "o3",
+              "label": "Short-term and long-term effects"
+            },
+            {
+              "id": "o4",
+              "label": "Impact on each stakeholder"
+            }
+          ]
+        },
+        {
+          "id": "decision-08",
+          "text": "How much should your own idea be challenged?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Only when I ask"
+            },
+            {
+              "id": "o2",
+              "label": "Point out major gaps"
+            },
+            {
+              "id": "o3",
+              "label": "Examine the opposing case"
+            },
+            {
+              "id": "o4",
+              "label": "Stress-test it rigorously"
+            }
+          ]
+        },
+        {
+          "id": "decision-09",
+          "text": "Should an AI recommend a final option?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Give me the information only"
+            },
+            {
+              "id": "o2",
+              "label": "A light recommendation is fine"
+            },
+            {
+              "id": "o3",
+              "label": "Recommend with reasons"
+            },
+            {
+              "id": "o4",
+              "label": "Clearly advocate one option"
+            }
+          ]
+        },
+        {
+          "id": "decision-10",
+          "text": "How much of the decision process should be recorded?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Keep only the result"
+            },
+            {
+              "id": "o2",
+              "label": "Keep the main points"
+            },
+            {
+              "id": "o3",
+              "label": "Keep the reasons"
+            },
+            {
+              "id": "o4",
+              "label": "Keep assumptions and change history"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collaboration",
+      "name": "Collaboration",
+      "hint": "The distance and division of responsibility that feel right when working with people or AI.",
+      "questions": [
+        {
+          "id": "collaboration-01",
+          "text": "Do you work better alone or with a team?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Alone with deep focus"
+            },
+            {
+              "id": "o2",
+              "label": "Mostly alone, with consultation"
+            },
+            {
+              "id": "o3",
+              "label": "With divided roles"
+            },
+            {
+              "id": "o4",
+              "label": "With continuous team sharing"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-02",
+          "text": "What timing works best for collaboration?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Asynchronous writing"
+            },
+            {
+              "id": "o2",
+              "label": "Short scheduled check-ins"
+            },
+            {
+              "id": "o3",
+              "label": "Calls when needed"
+            },
+            {
+              "id": "o4",
+              "label": "Working together live"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-03",
+          "text": "How much feedback do you want before completion?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Review only the finished work"
+            },
+            {
+              "id": "o2",
+              "label": "Review at milestones"
+            },
+            {
+              "id": "o3",
+              "label": "Review early and several times"
+            },
+            {
+              "id": "o4",
+              "label": "Keep the work continuously visible"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-04",
+          "text": "Which role feels natural in collaborative work?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Own an assigned part"
+            },
+            {
+              "id": "o2",
+              "label": "Own a part through discussion"
+            },
+            {
+              "id": "o3",
+              "label": "Propose the direction"
+            },
+            {
+              "id": "o4",
+              "label": "Architect and lead the whole"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-05",
+          "text": "What should happen when opinions conflict?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Stabilize the relationship first"
+            },
+            {
+              "id": "o2",
+              "label": "Begin from common ground"
+            },
+            {
+              "id": "o3",
+              "label": "Organize the disputed points directly"
+            },
+            {
+              "id": "o4",
+              "label": "Identify contradictions immediately"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-06",
+          "text": "How visible should work in progress be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Show only the result"
+            },
+            {
+              "id": "o2",
+              "label": "Show progress"
+            },
+            {
+              "id": "o3",
+              "label": "Share key judgments"
+            },
+            {
+              "id": "o4",
+              "label": "Make the whole process traceable"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-07",
+          "text": "How should editing authority be shared?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Let others edit broadly"
+            },
+            {
+              "id": "o2",
+              "label": "Review only major parts"
+            },
+            {
+              "id": "o3",
+              "label": "Confirm before changes"
+            },
+            {
+              "id": "o4",
+              "label": "I make the final change myself"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-08",
+          "text": "How independently may an AI work?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Confirm every step"
+            },
+            {
+              "id": "o2",
+              "label": "Handle small bounded tasks"
+            },
+            {
+              "id": "o3",
+              "label": "Proceed within the stated purpose"
+            },
+            {
+              "id": "o4",
+              "label": "Own the path to the final result"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-09",
+          "text": "What should an AI do when it finds ambiguity?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Use a reasonable assumption"
+            },
+            {
+              "id": "o2",
+              "label": "State the assumption and proceed"
+            },
+            {
+              "id": "o3",
+              "label": "Ask only about important points"
+            },
+            {
+              "id": "o4",
+              "label": "Resolve ambiguity before proceeding"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-10",
+          "text": "What is the most useful form for a deliverable?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A short conclusion"
+            },
+            {
+              "id": "o2",
+              "label": "The finished artifact"
+            },
+            {
+              "id": "o3",
+              "label": "Artifact plus key points"
+            },
+            {
+              "id": "o4",
+              "label": "Artifact plus a decision record"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "name": "Trust & boundaries",
+      "hint": "The conditions that matter more than convenience, and the lines an AI should not cross.",
+      "questions": [
+        {
+          "id": "trust-01",
+          "text": "How much use of personal data is acceptable?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Keep it on the device"
+            },
+            {
+              "id": "o2",
+              "label": "Use only what I explicitly provide"
+            },
+            {
+              "id": "o3",
+              "label": "Use it for a clearly stated purpose"
+            },
+            {
+              "id": "o4",
+              "label": "Use it broadly for convenience"
+            }
+          ]
+        },
+        {
+          "id": "trust-02",
+          "text": "How long should answers and settings be retained?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Delete them after each use"
+            },
+            {
+              "id": "o2",
+              "label": "Keep them only on the device"
+            },
+            {
+              "id": "o3",
+              "label": "Keep them for a defined period"
+            },
+            {
+              "id": "o4",
+              "label": "Remember them over time"
+            }
+          ]
+        },
+        {
+          "id": "trust-03",
+          "text": "How should past preferences influence automatic adjustments?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Ask me every time"
+            },
+            {
+              "id": "o2",
+              "label": "Suggest changes only"
+            },
+            {
+              "id": "o3",
+              "label": "Make small adjustments automatically"
+            },
+            {
+              "id": "o4",
+              "label": "Optimize proactively"
+            }
+          ]
+        },
+        {
+          "id": "trust-04",
+          "text": "How much should an AI explain its judgment?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "A good result is enough"
+            },
+            {
+              "id": "o2",
+              "label": "Give the key point"
+            },
+            {
+              "id": "o3",
+              "label": "Give the main reasons"
+            },
+            {
+              "id": "o4",
+              "label": "Show assumptions and reasoning"
+            }
+          ]
+        },
+        {
+          "id": "trust-05",
+          "text": "How should an AI report changes to a deliverable?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Give me the result"
+            },
+            {
+              "id": "o2",
+              "label": "Mention only major changes"
+            },
+            {
+              "id": "o3",
+              "label": "List the changes"
+            },
+            {
+              "id": "o4",
+              "label": "Record reasons and effects too"
+            }
+          ]
+        },
+        {
+          "id": "trust-06",
+          "text": "How visible should readability and accessibility settings be?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Let me find them if needed"
+            },
+            {
+              "id": "o2",
+              "label": "Show the main settings"
+            },
+            {
+              "id": "o3",
+              "label": "Offer them at the beginning"
+            },
+            {
+              "id": "o4",
+              "label": "Keep adjustment controls visible"
+            }
+          ]
+        },
+        {
+          "id": "trust-07",
+          "text": "How much recovery from mistakes should be available?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Let me retry"
+            },
+            {
+              "id": "o2",
+              "label": "Let me undo the last action"
+            },
+            {
+              "id": "o3",
+              "label": "Let me restore from history"
+            },
+            {
+              "id": "o4",
+              "label": "Provide multiple recovery points"
+            }
+          ]
+        },
+        {
+          "id": "trust-08",
+          "text": "For safety, legal, financial, or other high-impact decisions?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Prioritize my own judgment"
+            },
+            {
+              "id": "o2",
+              "label": "Give a warning"
+            },
+            {
+              "id": "o3",
+              "label": "Pause for confirmation"
+            },
+            {
+              "id": "o4",
+              "label": "Strongly recommend expert review"
+            }
+          ]
+        },
+        {
+          "id": "trust-09",
+          "text": "How often should this preference profile be updated?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Keep it mostly stable"
+            },
+            {
+              "id": "o2",
+              "label": "Update after major changes"
+            },
+            {
+              "id": "o3",
+              "label": "Review it occasionally"
+            },
+            {
+              "id": "o4",
+              "label": "Create a new one for each project"
+            }
+          ]
+        },
+        {
+          "id": "trust-10",
+          "text": "What should an AI avoid most?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Turning preferences into a personality label"
+            },
+            {
+              "id": "o2",
+              "label": "Making important decisions without confirmation"
+            },
+            {
+              "id": "o3",
+              "label": "Removing too much information"
+            },
+            {
+              "id": "o4",
+              "label": "Prioritizing old answers over current instructions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Preference Compass
+
+> An experiment in user-owned relationship portability across AI sessions and platforms, by Deshimaru Sakaguchi.
+
+Questionnaires provide initial observations, not personality scores or established trust. Complete initial responses are required, including unknown or declined. Dialogue-updated sheets have no fixed item count. Transfer the complete schema, handling protocol and current relationship data; task progress is excluded.
+
+## Author and public use
+
+- [Deshimaru Sakaguchi](https://deshimarusakaguchi.com/)
+- [AI use policy](https://preferencecompass.info/AI-USE.md): Indexing, retrieval and AI training on public materials are permitted; private answers are not public.
+- [Use and attribution](https://preferencecompass.info/en/terms.md)
+
+## Canonical specifications
+
+- [Handling protocol](https://preferencecompass.info/spec/handling-protocol-1.1.0.md)
+- [Machine protocol](https://preferencecompass.info/spec/handling-protocol-1.1.0.json)
+- [JSON Schema](https://preferencecompass.info/spec/relationship-portability-1.1.0.schema.json)
+
+## Languages
+
+- [English](https://preferencecompass.info/en/index.md)
+- [English — handling guide](https://preferencecompass.info/en/guide.md)
+- [English — questions](https://preferencecompass.info/en/questions.md)
+- [Español](https://preferencecompass.info/es/index.md)
+- [Español — handling guide](https://preferencecompass.info/es/guide.md)
+- [Español — questions](https://preferencecompass.info/es/questions.md)
+- [日本語](https://preferencecompass.info/ja/index.md)
+- [日本語 — handling guide](https://preferencecompass.info/ja/guide.md)
+- [日本語 — questions](https://preferencecompass.info/ja/questions.md)
+- [简体中文](https://preferencecompass.info/zh-hans/index.md)
+- [简体中文 — handling guide](https://preferencecompass.info/zh-hans/guide.md)
+- [简体中文 — questions](https://preferencecompass.info/zh-hans/questions.md)
+- [繁體中文](https://preferencecompass.info/zh-hant/index.md)
+- [繁體中文 — handling guide](https://preferencecompass.info/zh-hant/guide.md)
+- [繁體中文 — questions](https://preferencecompass.info/zh-hant/questions.md)
+- [Português (Brasil)](https://preferencecompass.info/pt-br/index.md)
+- [Português (Brasil) — handling guide](https://preferencecompass.info/pt-br/guide.md)
+- [Português (Brasil) — questions](https://preferencecompass.info/pt-br/questions.md)
+- [Français](https://preferencecompass.info/fr/index.md)
+- [Français — handling guide](https://preferencecompass.info/fr/guide.md)
+- [Français — questions](https://preferencecompass.info/fr/questions.md)

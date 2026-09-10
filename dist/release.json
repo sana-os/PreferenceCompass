@@ -1,0 +1,19 @@
+{
+  "release": "1.0.0",
+  "domain": "https://preferencecompass.info",
+  "questionnaireVersion": "2.0.0",
+  "translationVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
+  "protocolVersion": "1.1.0",
+  "languages": [
+    "en",
+    "es",
+    "ja",
+    "zh-hans",
+    "zh-hant",
+    "pt-br",
+    "fr"
+  ],
+  "translationReview": "AI-assisted translations; independent native-speaker validation pending.",
+  "source": "https://github.com/sana-os/PreferenceCompass"
+}

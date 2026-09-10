@@ -1,0 +1,2278 @@
+{
+  "id": "preference-compass-100",
+  "version": "2.0.0",
+  "translationVersion": "1.0.0",
+  "language": "fr",
+  "categories": [
+    {
+      "id": "enjoyment",
+      "name": "Loisirs",
+      "hint": "Explorons les expériences qui vous attirent.",
+      "questions": [
+        {
+          "id": "enjoyment-01",
+          "text": "Pendant votre temps libre, que choisissez-vous le plus souvent ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Des jeux"
+            },
+            {
+              "id": "o2",
+              "label": "Des films ou vidéos"
+            },
+            {
+              "id": "o3",
+              "label": "Des livres ou articles"
+            },
+            {
+              "id": "o4",
+              "label": "Fabriquer ou créer quelque chose"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-02",
+          "text": "Qu’est-ce qui vous attire d’abord dans un jeu ou une œuvre ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "L’histoire et les personnages"
+            },
+            {
+              "id": "o2",
+              "label": "L’exploration d’un univers"
+            },
+            {
+              "id": "o3",
+              "label": "La maîtrise d’une compétence"
+            },
+            {
+              "id": "o4",
+              "label": "Le partage de l’expérience"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-03",
+          "text": "Quand vous choisissez quelque chose de nouveau, que préférez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Un modèle familier"
+            },
+            {
+              "id": "o2",
+              "label": "Un peu de nouveauté"
+            },
+            {
+              "id": "o3",
+              "label": "Quelque chose de peu familier"
+            },
+            {
+              "id": "o4",
+              "label": "Une expérience totalement inconnue"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-04",
+          "text": "Quel niveau de guidage souhaitez-vous dans un jeu ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Tout découvrir par moi-même"
+            },
+            {
+              "id": "o2",
+              "label": "Quelques indices"
+            },
+            {
+              "id": "o3",
+              "label": "Un objectif clair"
+            },
+            {
+              "id": "o4",
+              "label": "Un accompagnement pas à pas"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-05",
+          "text": "Quel niveau de difficulté vous convient ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Très peu de risques d’échec"
+            },
+            {
+              "id": "o2",
+              "label": "Un peu de réflexion suffit"
+            },
+            {
+              "id": "o3",
+              "label": "Plusieurs essais avant de réussir"
+            },
+            {
+              "id": "o4",
+              "label": "Un défi exigeant"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-06",
+          "text": "Quelle intensité recherchez-vous dans les contenus ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Le calme et l’apaisement"
+            },
+            {
+              "id": "o2",
+              "label": "Des variations douces"
+            },
+            {
+              "id": "o3",
+              "label": "Des changements et temps forts marqués"
+            },
+            {
+              "id": "o4",
+              "label": "Un impact émotionnel puissant"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-07",
+          "text": "Quel type de fin préférez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Claire et résolue"
+            },
+            {
+              "id": "o2",
+              "label": "Quelques questions subsistent"
+            },
+            {
+              "id": "o3",
+              "label": "Ouverte à l’interprétation"
+            },
+            {
+              "id": "o4",
+              "label": "Sans réponse définitive"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-08",
+          "text": "Que pensez-vous de revenir à la même œuvre ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "La répétition l’enrichit"
+            },
+            {
+              "id": "o2",
+              "label": "Je reviens souvent à mes préférées"
+            },
+            {
+              "id": "o3",
+              "label": "J’y reviens parfois"
+            },
+            {
+              "id": "o4",
+              "label": "Je choisis généralement du nouveau"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-09",
+          "text": "Quelle durée vous convient le mieux ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Quelques minutes"
+            },
+            {
+              "id": "o2",
+              "label": "30 à 60 minutes"
+            },
+            {
+              "id": "o3",
+              "label": "Plusieurs heures"
+            },
+            {
+              "id": "o4",
+              "label": "Une expérience sur plusieurs jours ou semaines"
+            }
+          ]
+        },
+        {
+          "id": "enjoyment-10",
+          "text": "Quelle place souhaitez-vous donner aux autres dans vos loisirs ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Une expérience individuelle"
+            },
+            {
+              "id": "o2",
+              "label": "Partager mes impressions ensuite"
+            },
+            {
+              "id": "o3",
+              "label": "Parfois participer ensemble"
+            },
+            {
+              "id": "o4",
+              "label": "Toujours vivre l’expérience avec d’autres"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": "Couleur et lumière",
+      "hint": "Explorons le rôle que vous souhaitez donner à la couleur.",
+      "questions": [
+        {
+          "id": "color-01",
+          "text": "Quelle luminosité d’écran vous convient le mieux ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Un fond clair"
+            },
+            {
+              "id": "o2",
+              "label": "Plutôt clair"
+            },
+            {
+              "id": "o3",
+              "label": "Plutôt sombre"
+            },
+            {
+              "id": "o4",
+              "label": "Un fond sombre"
+            }
+          ]
+        },
+        {
+          "id": "color-02",
+          "text": "Quelle vivacité souhaitez-vous pour les couleurs ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Presque monochromes"
+            },
+            {
+              "id": "o2",
+              "label": "Douces et atténuées"
+            },
+            {
+              "id": "o3",
+              "label": "Modérément vives"
+            },
+            {
+              "id": "o4",
+              "label": "Intenses et saturées"
+            }
+          ]
+        },
+        {
+          "id": "color-03",
+          "text": "Quelle température de couleur vous attire le plus ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Des bleus et bleu-verts froids"
+            },
+            {
+              "id": "o2",
+              "label": "Des rouges, oranges et jaunes chauds"
+            },
+            {
+              "id": "o3",
+              "label": "Des blancs, noirs et gris neutres"
+            },
+            {
+              "id": "o4",
+              "label": "Cela dépend du contexte"
+            }
+          ]
+        },
+        {
+          "id": "color-04",
+          "text": "Combien de couleurs devraient figurer sur un écran ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Principalement une ou deux"
+            },
+            {
+              "id": "o2",
+              "label": "Une palette restreinte"
+            },
+            {
+              "id": "o3",
+              "label": "Plusieurs couleurs fonctionnelles"
+            },
+            {
+              "id": "o4",
+              "label": "Une palette large et variée"
+            }
+          ]
+        },
+        {
+          "id": "color-05",
+          "text": "À quel point les actions ou informations importantes doivent-elles ressortir ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Se fondre dans l’ensemble"
+            },
+            {
+              "id": "o2",
+              "label": "Se distinguer légèrement"
+            },
+            {
+              "id": "o3",
+              "label": "Être immédiatement visibles"
+            },
+            {
+              "id": "o4",
+              "label": "Attirer fortement l’attention"
+            }
+          ]
+        },
+        {
+          "id": "color-06",
+          "text": "Que pensez-vous des dégradés et effets brillants ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Mieux vaut les éviter"
+            },
+            {
+              "id": "o2",
+              "label": "Les utiliser très peu"
+            },
+            {
+              "id": "o3",
+              "label": "Les réserver aux endroits clés"
+            },
+            {
+              "id": "o4",
+              "label": "Leur donner une place importante"
+            }
+          ]
+        },
+        {
+          "id": "color-07",
+          "text": "Quelle combinaison de couleurs vous attire le plus ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Du bleu avec du blanc ou du gris"
+            },
+            {
+              "id": "o2",
+              "label": "Du vert avec des tons naturels"
+            },
+            {
+              "id": "o3",
+              "label": "Des couleurs chaudes avec des tons profonds"
+            },
+            {
+              "id": "o4",
+              "label": "Du noir et blanc avec une couleur d’accent"
+            }
+          ]
+        },
+        {
+          "id": "color-08",
+          "text": "Quel usage des couleurs souhaiteriez-vous surtout éviter ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Des couleurs trop pâles pour bien lire"
+            },
+            {
+              "id": "o2",
+              "label": "Trop de couleurs primaires criardes"
+            },
+            {
+              "id": "o3",
+              "label": "Une ambiance trop sombre et lourde"
+            },
+            {
+              "id": "o4",
+              "label": "Aucune préoccupation constante"
+            }
+          ]
+        },
+        {
+          "id": "color-09",
+          "text": "Quel rôle doit jouer la couleur pour distinguer les états ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Ne pas s’appuyer sur la couleur"
+            },
+            {
+              "id": "o2",
+              "label": "Un rôle complémentaire"
+            },
+            {
+              "id": "o3",
+              "label": "Des catégories de couleurs claires"
+            },
+            {
+              "id": "o4",
+              "label": "Le repère principal"
+            }
+          ]
+        },
+        {
+          "id": "color-10",
+          "text": "Quel rôle de la couleur faut-il privilégier ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "L’organisation de l’information"
+            },
+            {
+              "id": "o2",
+              "label": "Plutôt la fonction"
+            },
+            {
+              "id": "o3",
+              "label": "Plutôt l’atmosphère"
+            },
+            {
+              "id": "o4",
+              "label": "L’émotion et la création d’un univers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "name": "Forme et disposition",
+      "hint": "Transformons formes, espaces et alignement en contexte de conception.",
+      "questions": [
+        {
+          "id": "shape-01",
+          "text": "Quelle forme souhaitez-vous pour les angles des boutons et des cartes ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Très arrondis"
+            },
+            {
+              "id": "o2",
+              "label": "Légèrement arrondis"
+            },
+            {
+              "id": "o3",
+              "label": "Presque droits"
+            },
+            {
+              "id": "o4",
+              "label": "Nets et géométriques"
+            }
+          ]
+        },
+        {
+          "id": "shape-02",
+          "text": "Quel équilibre souhaitez-vous entre les deux côtés de l’écran ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Un déséquilibre volontaire"
+            },
+            {
+              "id": "o2",
+              "label": "Une légère asymétrie"
+            },
+            {
+              "id": "o3",
+              "label": "Un alignement global"
+            },
+            {
+              "id": "o4",
+              "label": "Un équilibre et un alignement stricts"
+            }
+          ]
+        },
+        {
+          "id": "shape-03",
+          "text": "Combien d’espace faut-il autour de l’information ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Beaucoup d’espace libre"
+            },
+            {
+              "id": "o2",
+              "label": "Un peu d’espace supplémentaire"
+            },
+            {
+              "id": "o3",
+              "label": "Une présentation assez compacte"
+            },
+            {
+              "id": "o4",
+              "label": "La plus compacte possible en pratique"
+            }
+          ]
+        },
+        {
+          "id": "shape-04",
+          "text": "À quel point les cartes et bordures doivent-elles délimiter l’information ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Un contenu fluide sans bordures"
+            },
+            {
+              "id": "o2",
+              "label": "Très peu de cadres"
+            },
+            {
+              "id": "o3",
+              "label": "Des groupes de contenus liés"
+            },
+            {
+              "id": "o4",
+              "label": "Des divisions très claires"
+            }
+          ]
+        },
+        {
+          "id": "shape-05",
+          "text": "Comment séparer les sections ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Par de l’espace seulement"
+            },
+            {
+              "id": "o2",
+              "label": "Par des lignes fines"
+            },
+            {
+              "id": "o3",
+              "label": "Par des fonds de couleurs différentes"
+            },
+            {
+              "id": "o4",
+              "label": "Par des ombres ou du relief"
+            }
+          ]
+        },
+        {
+          "id": "shape-06",
+          "text": "Quelle régularité souhaitez-vous dans la disposition ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Organique et libre"
+            },
+            {
+              "id": "o2",
+              "label": "Légèrement irrégulière"
+            },
+            {
+              "id": "o3",
+              "label": "Une grille ordonnée"
+            },
+            {
+              "id": "o4",
+              "label": "Une répétition stricte"
+            }
+          ]
+        },
+        {
+          "id": "shape-07",
+          "text": "Combien d’éléments doivent être visibles à la fois ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Quelques grands éléments"
+            },
+            {
+              "id": "o2",
+              "label": "Un ensemble limité"
+            },
+            {
+              "id": "o3",
+              "label": "De nombreux éléments"
+            },
+            {
+              "id": "o4",
+              "label": "Privilégier la liste complète"
+            }
+          ]
+        },
+        {
+          "id": "shape-08",
+          "text": "Quelle expressivité souhaitez-vous pour les icônes ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Purement symboliques"
+            },
+            {
+              "id": "o2",
+              "label": "Simples et neutres"
+            },
+            {
+              "id": "o3",
+              "label": "Un peu de personnalité"
+            },
+            {
+              "id": "o4",
+              "label": "Ludiques et expressives"
+            }
+          ]
+        },
+        {
+          "id": "shape-09",
+          "text": "À quel point faut-il différencier les titres ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "De façon subtile"
+            },
+            {
+              "id": "o2",
+              "label": "Par de légères différences"
+            },
+            {
+              "id": "o3",
+              "label": "Avec une hiérarchie claire"
+            },
+            {
+              "id": "o4",
+              "label": "Par de forts contrastes de taille et de graisse"
+            }
+          ]
+        },
+        {
+          "id": "shape-10",
+          "text": "Quelle place donner aux motifs ou formes décoratives ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Aucune"
+            },
+            {
+              "id": "o2",
+              "label": "Une trace en arrière-plan"
+            },
+            {
+              "id": "o3",
+              "label": "Quelques éléments aux moments clés"
+            },
+            {
+              "id": "o4",
+              "label": "Assez pour créer un univers ou une ambiance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "information",
+      "name": "Information",
+      "hint": "Explorons ce qui facilite votre compréhension.",
+      "questions": [
+        {
+          "id": "information-01",
+          "text": "Pour découvrir un sujet, que voulez-vous d’abord ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "L’essentiel en une phrase"
+            },
+            {
+              "id": "o2",
+              "label": "Un bref aperçu"
+            },
+            {
+              "id": "o3",
+              "label": "La structure et les points clés"
+            },
+            {
+              "id": "o4",
+              "label": "Une présentation détaillée avec le contexte"
+            }
+          ]
+        },
+        {
+          "id": "information-02",
+          "text": "Dans quel ordre présenter la conclusion et l’explication ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "La conclusion seule ou en premier"
+            },
+            {
+              "id": "o2",
+              "label": "La conclusion puis une raison brève"
+            },
+            {
+              "id": "o3",
+              "label": "La conclusion puis l’explication complète"
+            },
+            {
+              "id": "o4",
+              "label": "Partir des prémisses pour arriver à la conclusion"
+            }
+          ]
+        },
+        {
+          "id": "information-03",
+          "text": "Comment structurer un contenu long ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Préserver un fil ininterrompu"
+            },
+            {
+              "id": "o2",
+              "label": "Quelques sections"
+            },
+            {
+              "id": "o3",
+              "label": "Des titres fréquents"
+            },
+            {
+              "id": "o4",
+              "label": "Une structure numérotée stricte"
+            }
+          ]
+        },
+        {
+          "id": "information-04",
+          "text": "Comment traiter les termes spécialisés ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les remplacer par des mots courants"
+            },
+            {
+              "id": "o2",
+              "label": "Ajouter une brève explication"
+            },
+            {
+              "id": "o3",
+              "label": "Employer les termes usuels du domaine"
+            },
+            {
+              "id": "o4",
+              "label": "Employer un vocabulaire spécialisé précis"
+            }
+          ]
+        },
+        {
+          "id": "information-05",
+          "text": "Quel format facilite vos comparaisons ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Un texte court"
+            },
+            {
+              "id": "o2",
+              "label": "Une liste à puces"
+            },
+            {
+              "id": "o3",
+              "label": "Un tableau"
+            },
+            {
+              "id": "o4",
+              "label": "Un schéma ou graphique"
+            }
+          ]
+        },
+        {
+          "id": "information-06",
+          "text": "Quels détails complémentaires faut-il montrer immédiatement ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les afficher seulement au besoin"
+            },
+            {
+              "id": "o2",
+              "label": "Uniquement les notes importantes"
+            },
+            {
+              "id": "o3",
+              "label": "La plupart des détails"
+            },
+            {
+              "id": "o4",
+              "label": "Le plus possible à la fois"
+            }
+          ]
+        },
+        {
+          "id": "information-07",
+          "text": "Quelle place donner aux exemples dans les explications ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Commencer par les exemples"
+            },
+            {
+              "id": "o2",
+              "label": "Utiliser beaucoup d’exemples"
+            },
+            {
+              "id": "o3",
+              "label": "Équilibrer concepts et exemples"
+            },
+            {
+              "id": "o4",
+              "label": "Commencer par les principes et concepts"
+            }
+          ]
+        },
+        {
+          "id": "information-08",
+          "text": "Comment présenter les nombres ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Des estimations arrondies"
+            },
+            {
+              "id": "o2",
+              "label": "Seulement les chiffres clés"
+            },
+            {
+              "id": "o3",
+              "label": "Des valeurs exactes"
+            },
+            {
+              "id": "o4",
+              "label": "Des valeurs exactes avec accès aux données sources"
+            }
+          ]
+        },
+        {
+          "id": "information-09",
+          "text": "Quelle visibilité donner aux sources et aux éléments de preuve ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Seulement sur demande"
+            },
+            {
+              "id": "o2",
+              "label": "Les regrouper à la fin"
+            },
+            {
+              "id": "o3",
+              "label": "Les placer près des affirmations"
+            },
+            {
+              "id": "o4",
+              "label": "Assurer une traçabilité complète"
+            }
+          ]
+        },
+        {
+          "id": "information-10",
+          "text": "Comment présenter l’incertitude ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Préserver la fluidité"
+            },
+            {
+              "id": "o2",
+              "label": "Ajouter une réserve brève"
+            },
+            {
+              "id": "o3",
+              "label": "Indiquer clairement le degré de certitude"
+            },
+            {
+              "id": "o4",
+              "label": "Distinguer chaque inconnue en détail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interaction",
+      "name": "Contrôle",
+      "hint": "Délimitons ce que vous souhaitez déléguer ou contrôler.",
+      "questions": [
+        {
+          "id": "interaction-01",
+          "text": "Sur un écran inconnu, quel guidage souhaitez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Découvrir par moi-même"
+            },
+            {
+              "id": "o2",
+              "label": "Un indice bref"
+            },
+            {
+              "id": "o3",
+              "label": "Voir les étapes"
+            },
+            {
+              "id": "o4",
+              "label": "Un accompagnement pas à pas"
+            }
+          ]
+        },
+        {
+          "id": "interaction-02",
+          "text": "Combien de choix faut-il proposer à la fois ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Deux ou trois"
+            },
+            {
+              "id": "o2",
+              "label": "Quatre ou cinq"
+            },
+            {
+              "id": "o3",
+              "label": "Six à neuf"
+            },
+            {
+              "id": "o4",
+              "label": "Le plus possible dans une seule vue"
+            }
+          ]
+        },
+        {
+          "id": "interaction-03",
+          "text": "Quelle importance a la possibilité d’annuler une action ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Rarement nécessaire"
+            },
+            {
+              "id": "o2",
+              "label": "Pour les actions importantes"
+            },
+            {
+              "id": "o3",
+              "label": "Pour la plupart des actions"
+            },
+            {
+              "id": "o4",
+              "label": "Toujours pouvoir revenir en arrière"
+            }
+          ]
+        },
+        {
+          "id": "interaction-04",
+          "text": "Comment définir les paramètres initiaux ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les choisir automatiquement"
+            },
+            {
+              "id": "o2",
+              "label": "Appliquer les recommandations"
+            },
+            {
+              "id": "o3",
+              "label": "Me laisser examiner les principaux choix"
+            },
+            {
+              "id": "o4",
+              "label": "Me laisser tout régler moi-même"
+            }
+          ]
+        },
+        {
+          "id": "interaction-05",
+          "text": "Quel mode de saisie utilisez-vous le plus ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Le toucher ou le clic"
+            },
+            {
+              "id": "o2",
+              "label": "Le clavier"
+            },
+            {
+              "id": "o3",
+              "label": "La voix"
+            },
+            {
+              "id": "o4",
+              "label": "Un mélange selon la situation"
+            }
+          ]
+        },
+        {
+          "id": "interaction-06",
+          "text": "À quelle fréquence confirmer avant une action importante ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Continuer sans confirmation"
+            },
+            {
+              "id": "o2",
+              "label": "Ne pas confirmer si l’action est annulable"
+            },
+            {
+              "id": "o3",
+              "label": "Confirmer seulement les actions à fort impact"
+            },
+            {
+              "id": "o4",
+              "label": "Toujours demander clairement"
+            }
+          ]
+        },
+        {
+          "id": "interaction-07",
+          "text": "Où placer les fonctions principales ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les afficher seulement au besoin"
+            },
+            {
+              "id": "o2",
+              "label": "Les organiser dans des menus"
+            },
+            {
+              "id": "o3",
+              "label": "Les garder visibles à l’écran"
+            },
+            {
+              "id": "o4",
+              "label": "Tout rendre immédiatement accessible"
+            }
+          ]
+        },
+        {
+          "id": "interaction-08",
+          "text": "Quel niveau de personnalisation souhaitez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Choisir pour moi"
+            },
+            {
+              "id": "o2",
+              "label": "Quelques réglages"
+            },
+            {
+              "id": "o3",
+              "label": "Modifier les fonctions principales"
+            },
+            {
+              "id": "o4",
+              "label": "Régler les détails"
+            }
+          ]
+        },
+        {
+          "id": "interaction-09",
+          "text": "Comment communiquer une erreur ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Me rassurer avant d’expliquer"
+            },
+            {
+              "id": "o2",
+              "label": "Présenter le problème avec douceur"
+            },
+            {
+              "id": "o3",
+              "label": "Expliquer clairement la cause"
+            },
+            {
+              "id": "o4",
+              "label": "Décrire le problème directement et complètement"
+            }
+          ]
+        },
+        {
+          "id": "interaction-10",
+          "text": "Comment enregistrer le contenu saisi ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Seulement quand je l’enregistre"
+            },
+            {
+              "id": "o2",
+              "label": "Demander avant d’enregistrer"
+            },
+            {
+              "id": "o3",
+              "label": "Enregistrer automatiquement et prévenir"
+            },
+            {
+              "id": "o4",
+              "label": "Enregistrer automatiquement en continu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "name": "Mouvement et retours",
+      "hint": "Explorons le rythme et l’intensité qui vous conviennent.",
+      "questions": [
+        {
+          "id": "feedback-01",
+          "text": "Quelle place donner à l’animation dans l’interface ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Aucune"
+            },
+            {
+              "id": "o2",
+              "label": "Le minimum"
+            },
+            {
+              "id": "o3",
+              "label": "Des mouvements utiles"
+            },
+            {
+              "id": "o4",
+              "label": "Des mouvements riches et expressifs"
+            }
+          ]
+        },
+        {
+          "id": "feedback-02",
+          "text": "À quelle vitesse les écrans doivent-ils changer ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Laisser le temps de comprendre"
+            },
+            {
+              "id": "o2",
+              "label": "À un rythme calme"
+            },
+            {
+              "id": "o3",
+              "label": "Vite et nettement"
+            },
+            {
+              "id": "o4",
+              "label": "Presque instantanément"
+            }
+          ]
+        },
+        {
+          "id": "feedback-03",
+          "text": "Que faut-il afficher pendant l’attente ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Un indicateur discret"
+            },
+            {
+              "id": "o2",
+              "label": "Un simple signe d’activité"
+            },
+            {
+              "id": "o3",
+              "label": "Un pourcentage de progression"
+            },
+            {
+              "id": "o4",
+              "label": "Le détail de ce qui se passe"
+            }
+          ]
+        },
+        {
+          "id": "feedback-04",
+          "text": "Que pensez-vous des sons d’interface ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Aucun son"
+            },
+            {
+              "id": "o2",
+              "label": "Seulement les avertissements"
+            },
+            {
+              "id": "o3",
+              "label": "D’accord s’ils restent discrets"
+            },
+            {
+              "id": "o4",
+              "label": "Les utiliser activement"
+            }
+          ]
+        },
+        {
+          "id": "feedback-05",
+          "text": "Que doit-il se passer quand une tâche est terminée ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Mettre seulement l’état à jour"
+            },
+            {
+              "id": "o2",
+              "label": "Afficher une brève notification"
+            },
+            {
+              "id": "o3",
+              "label": "Ajouter une petite célébration"
+            },
+            {
+              "id": "o4",
+              "label": "Donner un vrai sentiment d’accomplissement"
+            }
+          ]
+        },
+        {
+          "id": "feedback-06",
+          "text": "Quelle réaction souhaitez-vous au toucher ou au survol d’un contrôle ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Aucun effet"
+            },
+            {
+              "id": "o2",
+              "label": "Un changement de couleur"
+            },
+            {
+              "id": "o3",
+              "label": "Un petit mouvement"
+            },
+            {
+              "id": "o4",
+              "label": "Une animation bien visible"
+            }
+          ]
+        },
+        {
+          "id": "feedback-07",
+          "text": "Quel détail de progression montrer pour une tâche longue ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Prévenir seulement à la fin"
+            },
+            {
+              "id": "o2",
+              "label": "Montrer l’étape actuelle"
+            },
+            {
+              "id": "o3",
+              "label": "Toujours afficher un pourcentage"
+            },
+            {
+              "id": "o4",
+              "label": "Afficher un historique détaillé"
+            }
+          ]
+        },
+        {
+          "id": "feedback-08",
+          "text": "À quelle fréquence souhaitez-vous des notifications ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Seulement pour les événements importants"
+            },
+            {
+              "id": "o2",
+              "label": "Très rarement"
+            },
+            {
+              "id": "o3",
+              "label": "À des moments utiles"
+            },
+            {
+              "id": "o4",
+              "label": "Même pour les petits changements"
+            }
+          ]
+        },
+        {
+          "id": "feedback-09",
+          "text": "Combien de temps doivent durer les transitions et les effets ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Laisser le temps de savourer"
+            },
+            {
+              "id": "o2",
+              "label": "Un peu plus longtemps"
+            },
+            {
+              "id": "o3",
+              "label": "Les garder brefs"
+            },
+            {
+              "id": "o4",
+              "label": "Les rendre presque immédiats"
+            }
+          ]
+        },
+        {
+          "id": "feedback-10",
+          "text": "À quel point signaler un changement d’état ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "L’intégrer naturellement"
+            },
+            {
+              "id": "o2",
+              "label": "Par une petite notification"
+            },
+            {
+              "id": "o3",
+              "label": "Le mettre clairement en évidence"
+            },
+            {
+              "id": "o4",
+              "label": "Par plusieurs repères complémentaires"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "name": "Langage et dialogue",
+      "hint": "Explorons le ton et la précision du dialogue.",
+      "questions": [
+        {
+          "id": "language-01",
+          "text": "Quel ton préférez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Amical et conversationnel"
+            },
+            {
+              "id": "o2",
+              "label": "Plutôt décontracté"
+            },
+            {
+              "id": "o3",
+              "label": "Poli et naturel"
+            },
+            {
+              "id": "o4",
+              "label": "Formel et exact"
+            }
+          ]
+        },
+        {
+          "id": "language-02",
+          "text": "Quelle chaleur émotionnelle souhaitez-vous dans le texte ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Neutre et factuel"
+            },
+            {
+              "id": "o2",
+              "label": "Légèrement chaleureux"
+            },
+            {
+              "id": "o3",
+              "label": "Chaleureux et attentif"
+            },
+            {
+              "id": "o4",
+              "label": "Très empathique"
+            }
+          ]
+        },
+        {
+          "id": "language-03",
+          "text": "Quelle longueur souhaitez-vous pour une réponse habituelle ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "La réponse utile la plus courte"
+            },
+            {
+              "id": "o2",
+              "label": "Concise"
+            },
+            {
+              "id": "o3",
+              "label": "Une explication complète"
+            },
+            {
+              "id": "o4",
+              "label": "Exhaustive et détaillée"
+            }
+          ]
+        },
+        {
+          "id": "language-04",
+          "text": "Comment exprimer une critique ou un désaccord ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "L’adoucir avec soin"
+            },
+            {
+              "id": "o2",
+              "label": "Employer un langage attentionné"
+            },
+            {
+              "id": "o3",
+              "label": "L’exprimer clairement"
+            },
+            {
+              "id": "o4",
+              "label": "Commencer directement par le fond du problème"
+            }
+          ]
+        },
+        {
+          "id": "language-05",
+          "text": "Quelle place donner à l’humour ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Aucune"
+            },
+            {
+              "id": "o2",
+              "label": "Très occasionnellement"
+            },
+            {
+              "id": "o3",
+              "label": "L’intégrer naturellement"
+            },
+            {
+              "id": "o4",
+              "label": "Rendre l’échange ludique"
+            }
+          ]
+        },
+        {
+          "id": "language-06",
+          "text": "Quelle place donner aux métaphores ou aux récits ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Privilégier les faits concrets"
+            },
+            {
+              "id": "o2",
+              "label": "Un peu en complément"
+            },
+            {
+              "id": "o3",
+              "label": "Les utiliser pour aider à comprendre"
+            },
+            {
+              "id": "o4",
+              "label": "J’apprécie une expression très métaphorique"
+            }
+          ]
+        },
+        {
+          "id": "language-07",
+          "text": "Quelle initiative attendez-vous d’une IA dans ses suggestions ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Seulement sur demande"
+            },
+            {
+              "id": "o2",
+              "label": "Parfois, au besoin"
+            },
+            {
+              "id": "o3",
+              "label": "Anticiper les prochaines étapes utiles"
+            },
+            {
+              "id": "o4",
+              "label": "Élargir activement les possibilités"
+            }
+          ]
+        },
+        {
+          "id": "language-08",
+          "text": "Que doit faire une IA lorsqu’elle n’est pas sûre ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Donner la meilleure réponse unique"
+            },
+            {
+              "id": "o2",
+              "label": "Ajouter une réserve brève"
+            },
+            {
+              "id": "o3",
+              "label": "Indiquer le degré de certitude et les alternatives"
+            },
+            {
+              "id": "o4",
+              "label": "Expliquer l’incertitude en détail"
+            }
+          ]
+        },
+        {
+          "id": "language-09",
+          "text": "Comment employer le jargon et les abréviations ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les éviter"
+            },
+            {
+              "id": "o2",
+              "label": "Toujours les expliquer"
+            },
+            {
+              "id": "o3",
+              "label": "Employer les termes courants du domaine"
+            },
+            {
+              "id": "o4",
+              "label": "Employer une terminologie experte précise"
+            }
+          ]
+        },
+        {
+          "id": "language-10",
+          "text": "L’IA doit-elle poser des questions ou avancer ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Proposer et continuer"
+            },
+            {
+              "id": "o2",
+              "label": "Expliciter ses hypothèses et continuer"
+            },
+            {
+              "id": "o3",
+              "label": "Interroger aux moments importants"
+            },
+            {
+              "id": "o4",
+              "label": "Tout clarifier avant de continuer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "name": "Réflexion et décisions",
+      "hint": "Explorons votre façon de parvenir à une décision.",
+      "questions": [
+        {
+          "id": "decision-01",
+          "text": "Combien d’options faut-il examiner ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Une option principale"
+            },
+            {
+              "id": "o2",
+              "label": "Deux ou trois options"
+            },
+            {
+              "id": "o3",
+              "label": "Plusieurs options comparées"
+            },
+            {
+              "id": "o4",
+              "label": "Un large éventail de possibilités"
+            }
+          ]
+        },
+        {
+          "id": "decision-02",
+          "text": "Quels éléments de preuve souhaitez-vous pour décider ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Privilégier l’intuition"
+            },
+            {
+              "id": "o2",
+              "label": "Vérifier les points essentiels"
+            },
+            {
+              "id": "o3",
+              "label": "Comparer les éléments de preuve"
+            },
+            {
+              "id": "o4",
+              "label": "Examiner les sources primaires"
+            }
+          ]
+        },
+        {
+          "id": "decision-03",
+          "text": "Comment abordez-vous une nouvelle méthode ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Utiliser des méthodes éprouvées"
+            },
+            {
+              "id": "o2",
+              "label": "La tester prudemment à petite échelle"
+            },
+            {
+              "id": "o3",
+              "label": "L’essayer si le bénéfice est plausible"
+            },
+            {
+              "id": "o4",
+              "label": "Expérimenter avec audace et accepter l’échec"
+            }
+          ]
+        },
+        {
+          "id": "decision-04",
+          "text": "Combien faut-il planifier avant de construire ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Commencer et apprendre en faisant"
+            },
+            {
+              "id": "o2",
+              "label": "Définir seulement la direction générale"
+            },
+            {
+              "id": "o3",
+              "label": "Organiser les étapes"
+            },
+            {
+              "id": "o4",
+              "label": "Concevoir en détail d’abord"
+            }
+          ]
+        },
+        {
+          "id": "decision-05",
+          "text": "Comment abordez-vous un problème complexe ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Partir d’un exemple concret"
+            },
+            {
+              "id": "o2",
+              "label": "Rassembler les faits"
+            },
+            {
+              "id": "o3",
+              "label": "Représenter la structure"
+            },
+            {
+              "id": "o4",
+              "label": "Partir des principes et des prémisses"
+            }
+          ]
+        },
+        {
+          "id": "decision-06",
+          "text": "Face à une méthode établie et une idée nouvelle, que préférez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Conserver la méthode établie"
+            },
+            {
+              "id": "o2",
+              "label": "L’améliorer progressivement"
+            },
+            {
+              "id": "o3",
+              "label": "Privilégier la nouvelle approche"
+            },
+            {
+              "id": "o4",
+              "label": "Reconcevoir à partir des prémisses"
+            }
+          ]
+        },
+        {
+          "id": "decision-07",
+          "text": "Que voulez-vous surtout comparer entre les options ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les avantages et les inconvénients"
+            },
+            {
+              "id": "o2",
+              "label": "Les coûts et les bénéfices"
+            },
+            {
+              "id": "o3",
+              "label": "Les effets à court et long terme"
+            },
+            {
+              "id": "o4",
+              "label": "L’impact sur chaque partie prenante"
+            }
+          ]
+        },
+        {
+          "id": "decision-08",
+          "text": "À quel point votre propre idée doit-elle être remise en question ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Seulement sur demande"
+            },
+            {
+              "id": "o2",
+              "label": "Signaler les grandes lacunes"
+            },
+            {
+              "id": "o3",
+              "label": "Examiner le point de vue opposé"
+            },
+            {
+              "id": "o4",
+              "label": "La mettre rigoureusement à l’épreuve"
+            }
+          ]
+        },
+        {
+          "id": "decision-09",
+          "text": "L’IA doit-elle recommander une option finale ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Me donner seulement les éléments"
+            },
+            {
+              "id": "o2",
+              "label": "Une recommandation légère me convient"
+            },
+            {
+              "id": "o3",
+              "label": "Recommander avec des raisons"
+            },
+            {
+              "id": "o4",
+              "label": "Défendre clairement une option"
+            }
+          ]
+        },
+        {
+          "id": "decision-10",
+          "text": "Que faut-il conserver du processus de décision ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Seulement le résultat"
+            },
+            {
+              "id": "o2",
+              "label": "Les points essentiels"
+            },
+            {
+              "id": "o3",
+              "label": "Les raisons"
+            },
+            {
+              "id": "o4",
+              "label": "Les prémisses et l’historique des changements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collaboration",
+      "name": "Collaboration",
+      "hint": "Explorons la distance et le partage des responsabilités.",
+      "questions": [
+        {
+          "id": "collaboration-01",
+          "text": "Travaillez-vous mieux seul ou en équipe ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Seul, en pleine concentration"
+            },
+            {
+              "id": "o2",
+              "label": "Surtout seul, avec consultation"
+            },
+            {
+              "id": "o3",
+              "label": "Avec une répartition des rôles"
+            },
+            {
+              "id": "o4",
+              "label": "En partageant continuellement en équipe"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-02",
+          "text": "Quel rythme de collaboration vous convient ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Des échanges écrits asynchrones"
+            },
+            {
+              "id": "o2",
+              "label": "De courts points programmés"
+            },
+            {
+              "id": "o3",
+              "label": "Des appels au besoin"
+            },
+            {
+              "id": "o4",
+              "label": "Travailler ensemble en direct"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-03",
+          "text": "Combien de retours souhaitez-vous avant la fin ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Examiner seulement le travail terminé"
+            },
+            {
+              "id": "o2",
+              "label": "Examiner aux étapes clés"
+            },
+            {
+              "id": "o3",
+              "label": "Examiner tôt et plusieurs fois"
+            },
+            {
+              "id": "o4",
+              "label": "Garder le travail visible en continu"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-04",
+          "text": "Quel rôle vous convient naturellement dans une collaboration ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Prendre en charge une partie attribuée"
+            },
+            {
+              "id": "o2",
+              "label": "Gérer une partie par le dialogue"
+            },
+            {
+              "id": "o3",
+              "label": "Proposer la direction"
+            },
+            {
+              "id": "o4",
+              "label": "Concevoir et diriger l’ensemble"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-05",
+          "text": "Que faire quand les opinions s’opposent ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Apaiser d’abord la relation"
+            },
+            {
+              "id": "o2",
+              "label": "Partir des points communs"
+            },
+            {
+              "id": "o3",
+              "label": "Organiser directement les désaccords"
+            },
+            {
+              "id": "o4",
+              "label": "Relever immédiatement les contradictions"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-06",
+          "text": "Quelle visibilité donner au travail en cours ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Montrer seulement le résultat"
+            },
+            {
+              "id": "o2",
+              "label": "Montrer l’avancement"
+            },
+            {
+              "id": "o3",
+              "label": "Partager les décisions clés"
+            },
+            {
+              "id": "o4",
+              "label": "Rendre tout le processus traçable"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-07",
+          "text": "Comment partager le droit de modifier ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Laisser une large liberté"
+            },
+            {
+              "id": "o2",
+              "label": "Vérifier seulement les parties importantes"
+            },
+            {
+              "id": "o3",
+              "label": "Confirmer avant les changements"
+            },
+            {
+              "id": "o4",
+              "label": "Effectuer moi-même la modification finale"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-08",
+          "text": "Quelle autonomie accorder à une IA ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Confirmer chaque étape"
+            },
+            {
+              "id": "o2",
+              "label": "Lui confier de petites tâches délimitées"
+            },
+            {
+              "id": "o3",
+              "label": "La laisser avancer dans le but indiqué"
+            },
+            {
+              "id": "o4",
+              "label": "Lui confier le chemin jusqu’au résultat final"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-09",
+          "text": "Que doit faire une IA face à une ambiguïté ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Adopter une hypothèse raisonnable"
+            },
+            {
+              "id": "o2",
+              "label": "L’expliciter puis avancer"
+            },
+            {
+              "id": "o3",
+              "label": "Interroger seulement les points importants"
+            },
+            {
+              "id": "o4",
+              "label": "Lever l’ambiguïté avant de continuer"
+            }
+          ]
+        },
+        {
+          "id": "collaboration-10",
+          "text": "Quelle forme de livraison vous est la plus utile ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Une conclusion brève"
+            },
+            {
+              "id": "o2",
+              "label": "Le résultat terminé"
+            },
+            {
+              "id": "o3",
+              "label": "Le résultat avec les points clés"
+            },
+            {
+              "id": "o4",
+              "label": "Le résultat avec un journal des décisions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "name": "Confiance et limites",
+      "hint": "Identifions les conditions et limites à respecter.",
+      "questions": [
+        {
+          "id": "trust-01",
+          "text": "Quel usage des données personnelles acceptez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les garder sur l’appareil"
+            },
+            {
+              "id": "o2",
+              "label": "Utiliser seulement ce que je fournis explicitement"
+            },
+            {
+              "id": "o3",
+              "label": "Les utiliser dans un but clairement indiqué"
+            },
+            {
+              "id": "o4",
+              "label": "Les utiliser largement pour plus de commodité"
+            }
+          ]
+        },
+        {
+          "id": "trust-02",
+          "text": "Combien de temps conserver réponses et réglages ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Les supprimer après chaque utilisation"
+            },
+            {
+              "id": "o2",
+              "label": "Les garder uniquement sur l’appareil"
+            },
+            {
+              "id": "o3",
+              "label": "Les conserver pendant une durée définie"
+            },
+            {
+              "id": "o4",
+              "label": "Les mémoriser dans le temps"
+            }
+          ]
+        },
+        {
+          "id": "trust-03",
+          "text": "Comment les préférences passées doivent-elles guider les ajustements automatiques ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Me demander chaque fois"
+            },
+            {
+              "id": "o2",
+              "label": "Seulement proposer des changements"
+            },
+            {
+              "id": "o3",
+              "label": "Effectuer de petits ajustements automatiquement"
+            },
+            {
+              "id": "o4",
+              "label": "Optimiser de manière proactive"
+            }
+          ]
+        },
+        {
+          "id": "trust-04",
+          "text": "À quel point l’IA doit-elle expliquer son jugement ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Un bon résultat suffit"
+            },
+            {
+              "id": "o2",
+              "label": "Donner l’essentiel"
+            },
+            {
+              "id": "o3",
+              "label": "Donner les principales raisons"
+            },
+            {
+              "id": "o4",
+              "label": "Montrer les prémisses et le raisonnement"
+            }
+          ]
+        },
+        {
+          "id": "trust-05",
+          "text": "Comment l’IA doit-elle signaler les changements apportés ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Donner le résultat"
+            },
+            {
+              "id": "o2",
+              "label": "Mentionner les changements importants"
+            },
+            {
+              "id": "o3",
+              "label": "Énumérer les changements"
+            },
+            {
+              "id": "o4",
+              "label": "Noter aussi les raisons et les effets"
+            }
+          ]
+        },
+        {
+          "id": "trust-06",
+          "text": "Quelle visibilité donner aux réglages de lisibilité et d’accessibilité ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Me laisser les trouver au besoin"
+            },
+            {
+              "id": "o2",
+              "label": "Montrer les principaux"
+            },
+            {
+              "id": "o3",
+              "label": "Les proposer dès le début"
+            },
+            {
+              "id": "o4",
+              "label": "Garder les commandes visibles"
+            }
+          ]
+        },
+        {
+          "id": "trust-07",
+          "text": "Quelles possibilités de récupération après une erreur souhaitez-vous ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Pouvoir réessayer"
+            },
+            {
+              "id": "o2",
+              "label": "Annuler la dernière action"
+            },
+            {
+              "id": "o3",
+              "label": "Restaurer depuis l’historique"
+            },
+            {
+              "id": "o4",
+              "label": "Disposer de plusieurs points de restauration"
+            }
+          ]
+        },
+        {
+          "id": "trust-08",
+          "text": "Pour les décisions de sécurité, de droit, de finance ou à fort impact ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Privilégier mon propre jugement"
+            },
+            {
+              "id": "o2",
+              "label": "Me donner un avertissement"
+            },
+            {
+              "id": "o3",
+              "label": "S’arrêter pour confirmer"
+            },
+            {
+              "id": "o4",
+              "label": "Recommander fortement un avis spécialisé"
+            }
+          ]
+        },
+        {
+          "id": "trust-09",
+          "text": "À quelle fréquence mettre ce profil à jour ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Le garder assez stable"
+            },
+            {
+              "id": "o2",
+              "label": "Après les grands changements"
+            },
+            {
+              "id": "o3",
+              "label": "Le réexaminer de temps en temps"
+            },
+            {
+              "id": "o4",
+              "label": "En créer un pour chaque projet"
+            }
+          ]
+        },
+        {
+          "id": "trust-10",
+          "text": "Que doit surtout éviter une IA ?",
+          "options": [
+            {
+              "id": "o1",
+              "label": "Transformer les préférences en étiquette de personnalité"
+            },
+            {
+              "id": "o2",
+              "label": "Décider de choses importantes sans confirmation"
+            },
+            {
+              "id": "o3",
+              "label": "Omettre trop d’informations"
+            },
+            {
+              "id": "o4",
+              "label": "Privilégier les anciennes réponses sur les instructions actuelles"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

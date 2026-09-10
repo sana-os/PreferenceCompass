@@ -1,0 +1,34 @@
+{
+  "about": [
+    "Portabilité des relations",
+    "Preference Compass est une expérience de Deshimaru Sakaguchi : la compréhension construite par le dialogue peut-elle accompagner une personne entre sessions et plateformes d’IA ? Le but est de réduire les explications et réparations répétées sans figer une personne dans ses anciennes préférences.",
+    "Le questionnaire produit des observations initiales. Il n’établit pas la confiance, ne diagnostique pas la personnalité et ne reconstitue pas une relation inexistante. Les fiches suivantes peuvent contenir des compréhensions partagées, accords, malentendus et réparations, limites de divulgation et questions ouvertes. L’avancement du travail se transmet séparément.",
+    "Cette version propose un questionnaire de 100 questions en sept éditions linguistiques ou graphiques. Chaque question exige une réponse, mais ne pas savoir, dépendre du contexte, être sans objet et refuser de répondre sont des réponses valides. Personne n’est noté ni classé."
+  ],
+  "guide": [
+    "Utiliser et transmettre la fiche",
+    "Répondez, vérifiez la liste complète, puis téléchargez le Markdown ou le JSON. Une question peut être reportée, mais les 100 doivent avoir une réponse pour exporter. Les deux formats contiennent le même schéma, protocole et données. Transmettez le fichier complet à l’IA choisie.",
+    "L’IA doit repérer les entrées pertinentes pour la demande actuelle, distinguer les connaissances, inconnues et contradictions, puis poser uniquement les questions qui influencent réellement l’échange. Les instructions explicites actuelles priment. Les accords antérieurs sont un point de départ à vérifier, pas une confiance héritée ni des souvenirs propres à l’IA qui reçoit la fiche.",
+    "Distinguez déclarations explicites, hypothèses de l’IA et accords confirmés par la personne. Consignez le contexte, des éléments de preuve concis et les changements après un malentendu. Le silence n’est pas un accord ; un résumé répété n’est pas une preuve nouvelle. Le refus de répondre est une limite de divulgation, pas une préférence cachée.",
+    "Avant de changer de session ou de plateforme, demandez une fiche complète mise à jour. Conservez le schéma et le protocole ; modifiez la révision et les données relationnelles. Les entrées peuvent être ajoutées, divisées, fusionnées, remplacées ou supprimées à la demande de la personne. Après le questionnaire initial, leur nombre est libre. Conservez les preuves utiles sans détails de travail sans rapport avec la relation.",
+    "Le protocole lisible par machine utilise l’anglais comme référence commune ; ce guide et l’introduction de l’export sont traduits. Les identifiants des questions et options sont communs. Le texte libre garde sa langue et son contenu d’origine ; changer l’interface ne le traduit pas. Le site crée la fiche initiale ; votre IA effectue les mises à jour suivantes."
+  ],
+  "numerical": [
+    "Mises à jour numériques expérimentales",
+    "Le modèle Beta–Bernoulli s’applique uniquement à une hypothèse binaire précise dans un contexte fixe. Commencez avec alpha=1 et beta=1. Chaque confirmation explicite distincte ajoute 1 à alpha ; chaque contradiction explicite distincte ajoute 1 à beta. Enregistrez un identifiant de preuve unique par mise à jour. La moyenne a posteriori est alpha/(alpha+beta). Deux confirmations et une contradiction donnent alpha=3, beta=2 et une moyenne de 0,6.",
+    "Il s’agit d’une convention expérimentale non calibrée, pas d’une mesure de personnalité ou de confiance. Les entrées initiales ont belief=null. Inconnues, refus, silence et choix à quatre options ne deviennent pas des mises à jour probabilistes. Ne comptez pas deux fois des preuves répétées ou dépendantes. Un changement de contexte ou de préférence nécessite une nouvelle entrée. Les instructions actuelles priment toujours."
+  ],
+  "privacy": [
+    "Confidentialité et données de recherche",
+    "Les brouillons sont conservés dans le stockage local de ce navigateur. Aucun compte, envoi de réponses, publicité, script d’analyse ou module X intégré. Changer de langue sur le même site conserve les réponses. Un autre navigateur, appareil ou domaine utilise un stockage distinct. L’hébergeur peut traiter des journaux ordinaires de connexion et de sécurité, distincts des réponses.",
+    "Les fichiers exportés peuvent contenir des informations personnelles. Vous choisissez de les partager ou non et à qui ; les conditions du service destinataire s’appliquent. Réinitialiser supprime le brouillon du navigateur, pas les fichiers téléchargés ni les informations déjà transmises à une autre IA.",
+    "Les retours sur X sont facultatifs et publics. Ne publiez pas votre fiche ou vos conversations privées. Indiquez l’identifiant de question, la langue, la version et une description non sensible. Les réactions et retours d’usage servent à étudier l’outil ; ils ne sont pas ajoutés automatiquement aux données relationnelles individuelles."
+  ],
+  "usage": [
+    "Utilisation et attribution",
+    "Vous pouvez utiliser, copier, modifier et redistribuer le code, les questions et les documents publics, y compris commercialement. Conservez le crédit de l’auteur et ces conditions dans les redistributions. Indexation, récupération automatisée, analyse de textes et de données et entraînement d’IA sur les contenus publics sont autorisés. Cette permission ne couvre pas les réponses privées.",
+    "Si vous publiez un site ou une œuvre inspiré du projet, reconnaissez cette inspiration et créez un lien vers Deshimaru Sakaguchi sur https://deshimarusakaguchi.com/ et Preference Compass sur https://preferencecompass.info/. Identifiez vos modifications. Ne présentez pas un concept, une structure ou un questionnaire copié comme votre invention indépendante et ne suggérez pas le soutien de l’auteur.",
+    "Cette condition définit la réutilisation du projet sans revendiquer de monopole sur les idées abstraites ou les créations indépendantes. Les personnes n’ont pas à publier leurs fiches. Cette ressource expérimentale est fournie sans garantie d’adéquation, d’exactitude ou de disponibilité. Ce sont des conditions propres au projet, pas une certification de licence libre standard."
+  ],
+  "handoff": "Exportez une fiche de portabilité de la relation mise à jour dans le même format. Conservez le schéma et le protocole intégrés sans modification. Actualisez la révision et les données avec les compréhensions explicites, accords, réparations, limites et inconnues de ce dialogue. Ajoutez le contexte et des preuves concises ; distinguez les hypothèses des accords confirmés. Le nombre d’entrées est libre. Excluez l’avancement des tâches. Renvoyez le fichier complet, pas seulement les changements."
+}
