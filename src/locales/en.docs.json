@@ -30,5 +30,29 @@
     "If you publish a site or work inspired by this project, clearly acknowledge the inspiration and link to Deshimaru Sakaguchi at https://deshimarusakaguchi.com/ and Preference Compass at https://preferencecompass.info/. Clearly identify your own changes. Do not present a copied concept, structure or question set as an independently originated idea of your own, or imply the author endorses your work.",
     "This attribution condition expresses how this project may be reused; it does not claim exclusive ownership over abstract ideas or independently created work. Individual users do not need to publish their personal sheets. The tool is provided as an experimental resource without a guarantee of fitness, accuracy or availability. These are custom project terms, not a claim of certification under a standard open-source license."
   ],
-  "handoff": "Please export an updated Relationship Portability Sheet in the same format. Keep the embedded schema and handling protocol unchanged. Update the revision and relationship data to reflect explicit understandings, agreements, repairs, boundaries and unknowns from this dialogue. Include context and concise evidence; keep hypotheses separate from confirmed agreements. Use any number of entries. Exclude task progress. Return the complete file, not just changes."
+  "handoff": "Please export an updated Relationship Portability Sheet in the same format. Keep the embedded schema and handling protocol unchanged. Update the revision and relationship data to reflect explicit understandings, agreements, repairs, boundaries and unknowns from this dialogue. Include context and concise evidence; keep hypotheses separate from confirmed agreements. Use any number of entries. Exclude task progress. Return the complete file, not just changes.",
+  "quickstart": {
+    "title": "How to use",
+    "returnLabel": "Start or resume the questionnaire",
+    "steps": [
+      [
+        "1. Answer the questions",
+        "Choose an option, write your own answer, or select a status such as “Unknown” or “Prefer not to answer”. All 100 questions need a response before export; uncertainty and refusal are valid responses."
+      ],
+      [
+        "2. Review and save",
+        "Open the answer review, check your choices and private text, then download Markdown or JSON. Either format contains the complete sheet; you do not need both. Answers are saved in this browser and are not submitted to the author."
+      ],
+      [
+        "3. Give the complete file to an AI",
+        "Attach the downloaded file to your AI conversation. If file uploads are unavailable, paste the complete Markdown text. The sheet includes its format and handling instructions. Check that the AI can read it, then explain what you want to do."
+      ],
+      [
+        "4. Update it when you want to move",
+        "After a conversation, use the update request below to ask the AI for a complete revised sheet. Review it, save it, and give that new file to the next AI. You do not need to repeat the 100 questions; later sheets may contain any number of relationship items."
+      ]
+    ],
+    "promptTitle": "Your first message to the AI",
+    "prompt": "Please read this complete Preference Compass sheet and its handling instructions. Use it as provisional context for working with me. Tell me if any part cannot be read, and ask about relevant gaps rather than guessing. My current instructions take priority."
+  }
 }

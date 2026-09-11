@@ -1,5 +1,27 @@
 # Usar e transferir a ficha
 
+## Como usar
+
+### 1. Responda às perguntas
+
+Escolha uma opção, escreva sua resposta ou selecione um estado como “Não sei” ou “Prefiro não responder”. As 100 perguntas precisam de resposta antes da exportação; incerteza e recusa são respostas válidas.
+
+### 2. Revise e salve
+
+Revise suas respostas e informações privadas e baixe Markdown ou JSON. Ambos contêm a ficha completa; basta um. As respostas ficam neste navegador e não são enviadas ao autor.
+
+### 3. Entregue o arquivo completo a uma IA
+
+Anexe o arquivo à conversa. Se não for possível, cole todo o texto Markdown. O formato e as instruções estão incluídos. Confira se a IA consegue ler e explique o que deseja fazer.
+
+### 4. Atualize quando quiser mudar
+
+Após conversar, use o pedido abaixo para solicitar uma ficha completa atualizada. Revise, salve e entregue à próxima IA. Não é necessário repetir as 100 perguntas; as próximas fichas podem ter qualquer número de itens de relacionamento.
+
+### Primeira mensagem à IA
+
+Leia esta ficha completa do Preference Compass e suas instruções. Use-a como contexto provisório para trabalhar comigo. Avise se alguma parte não puder ser lida e pergunte sobre informações relevantes que faltam, em vez de adivinhar. Minhas instruções atuais têm prioridade.
+
 Responda, revise a lista completa e baixe Markdown ou JSON. Você pode adiar uma pergunta, mas a exportação exige resposta às 100. Os formatos incluem o mesmo esquema, protocolo e dados. Entregue o arquivo completo à IA escolhida.
 
 A IA deve identificar as entradas relevantes ao pedido atual, separar informações conhecidas, desconhecidas e contraditórias e perguntar apenas o que afeta de fato a interação. As instruções explícitas atuais têm prioridade. Acordos anteriores são um ponto de partida a confirmar, não confiança herdada nem memórias pessoais da IA receptora.

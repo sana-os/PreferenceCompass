@@ -30,5 +30,29 @@
     "Se publicar um site ou trabalho inspirado no projeto, reconheça a inspiração e inclua links para Deshimaru Sakaguchi em https://deshimarusakaguchi.com/ e Preference Compass em https://preferencecompass.info/. Identifique suas alterações. Não apresente conceito, estrutura ou questionário copiado como ideia criada independentemente por você, nem sugira endosso do autor.",
     "Esta condição define a reutilização do projeto; não reivindica exclusividade sobre ideias abstratas ou obras independentes. Pessoas não precisam publicar suas fichas. O recurso experimental é fornecido sem garantia de adequação, precisão ou disponibilidade. São condições próprias do projeto, não uma certificação de licença padrão de código aberto."
   ],
-  "handoff": "Exporte uma ficha de portabilidade da relação atualizada no mesmo formato. Preserve o esquema e o protocolo incluídos sem alterações. Atualize a revisão e os dados com os entendimentos explícitos, acordos, reparações, limites e pontos desconhecidos deste diálogo. Inclua contexto e evidências breves; separe hipóteses de acordos confirmados. Use quantas entradas forem necessárias. Exclua o progresso de tarefas. Devolva o arquivo completo, não apenas as mudanças."
+  "handoff": "Exporte uma ficha de portabilidade da relação atualizada no mesmo formato. Preserve o esquema e o protocolo incluídos sem alterações. Atualize a revisão e os dados com os entendimentos explícitos, acordos, reparações, limites e pontos desconhecidos deste diálogo. Inclua contexto e evidências breves; separe hipóteses de acordos confirmados. Use quantas entradas forem necessárias. Exclua o progresso de tarefas. Devolva o arquivo completo, não apenas as mudanças.",
+  "quickstart": {
+    "title": "Como usar",
+    "returnLabel": "Iniciar ou retomar o questionário",
+    "steps": [
+      [
+        "1. Responda às perguntas",
+        "Escolha uma opção, escreva sua resposta ou selecione um estado como “Não sei” ou “Prefiro não responder”. As 100 perguntas precisam de resposta antes da exportação; incerteza e recusa são respostas válidas."
+      ],
+      [
+        "2. Revise e salve",
+        "Revise suas respostas e informações privadas e baixe Markdown ou JSON. Ambos contêm a ficha completa; basta um. As respostas ficam neste navegador e não são enviadas ao autor."
+      ],
+      [
+        "3. Entregue o arquivo completo a uma IA",
+        "Anexe o arquivo à conversa. Se não for possível, cole todo o texto Markdown. O formato e as instruções estão incluídos. Confira se a IA consegue ler e explique o que deseja fazer."
+      ],
+      [
+        "4. Atualize quando quiser mudar",
+        "Após conversar, use o pedido abaixo para solicitar uma ficha completa atualizada. Revise, salve e entregue à próxima IA. Não é necessário repetir as 100 perguntas; as próximas fichas podem ter qualquer número de itens de relacionamento."
+      ]
+    ],
+    "promptTitle": "Primeira mensagem à IA",
+    "prompt": "Leia esta ficha completa do Preference Compass e suas instruções. Use-a como contexto provisório para trabalhar comigo. Avise se alguma parte não puder ser lida e pergunte sobre informações relevantes que faltam, em vez de adivinhar. Minhas instruções atuais têm prioridade."
+  }
 }

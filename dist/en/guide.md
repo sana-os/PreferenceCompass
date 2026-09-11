@@ -1,5 +1,27 @@
 # Using and carrying the sheet
 
+## How to use
+
+### 1. Answer the questions
+
+Choose an option, write your own answer, or select a status such as “Unknown” or “Prefer not to answer”. All 100 questions need a response before export; uncertainty and refusal are valid responses.
+
+### 2. Review and save
+
+Open the answer review, check your choices and private text, then download Markdown or JSON. Either format contains the complete sheet; you do not need both. Answers are saved in this browser and are not submitted to the author.
+
+### 3. Give the complete file to an AI
+
+Attach the downloaded file to your AI conversation. If file uploads are unavailable, paste the complete Markdown text. The sheet includes its format and handling instructions. Check that the AI can read it, then explain what you want to do.
+
+### 4. Update it when you want to move
+
+After a conversation, use the update request below to ask the AI for a complete revised sheet. Review it, save it, and give that new file to the next AI. You do not need to repeat the 100 questions; later sheets may contain any number of relationship items.
+
+### Your first message to the AI
+
+Please read this complete Preference Compass sheet and its handling instructions. Use it as provisional context for working with me. Tell me if any part cannot be read, and ask about relevant gaps rather than guessing. My current instructions take priority.
+
 Answer the questionnaire, review the complete response list, then download Markdown or JSON. You may move past a question temporarily; export becomes available only after all 100 have a response. Both downloads contain the same schema, protocol and data. Give the entire file to the AI you choose.
 
 The receiving AI should identify which entries matter to your current request, distinguish known information from unknowns and conflicts, and ask only the questions that materially affect the interaction. Current explicit instructions take priority. Earlier agreements are a starting point for confirmation, not inherited trust or personal memories of the receiving AI.

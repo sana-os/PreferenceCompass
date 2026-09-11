@@ -331,3 +331,15 @@ select, textarea { max-width: 100%; min-width: 0; }
 @media (max-width: 620px) {
   .shell { width: calc(100% - 24px); }
 }
+
+.guide-entry { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:.5rem 1rem; border:1px solid #b9cbff; border-radius:8px; color:white; font-size:1rem; font-weight:700; text-decoration:none; }
+.guide-entry:hover { background:#263752; }
+.guide-entry:focus-visible,.guide-return:focus-visible { outline:3px solid #86a6ff; outline-offset:3px; }
+.quickstart { margin:1.5rem 0 2rem; padding:1.25rem; background:white; border:1px solid var(--line); border-radius:12px; }
+.document .quickstart h2 { margin-top:0; }
+.quickstart ol { padding-left:1.5rem; }
+.quickstart li { padding-left:.25rem; margin-bottom:1.5rem; }
+.quickstart h3 { margin-bottom:.4rem; }
+.quickstart p { margin-top:.4rem; }
+.guide-return { display:inline-block; padding:.65rem 1rem; border:1px solid var(--blue); border-radius:8px; font-weight:700; }
+@media(max-width:620px){.quickstart{padding:1rem;}.guide-entry{padding:.5rem .8rem;}}
