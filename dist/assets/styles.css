@@ -319,3 +319,15 @@ select, textarea { max-width: 100%; min-width: 0; }
   .question-actions button, .export-actions button { min-width: 0; overflow-wrap: anywhere; }
   .dialog-actions { flex-wrap: wrap; }
 }
+
+/* Mobile repair 2: ordinary block flow avoids intrinsic grid track sizing. */
+@media (max-width: 900px) {
+  .shell { display: block; width: calc(100% - 28px); max-width: 760px; }
+  .shell > .rail, .shell > .workspace { width: 100%; max-width: 100%; min-width: 0; }
+  .shell > .rail { margin-bottom: 22px; }
+  #categoryNav { contain: inline-size; }
+  .question-card, .review-panel, .review-category { max-width: 100%; min-width: 0; }
+}
+@media (max-width: 620px) {
+  .shell { width: calc(100% - 24px); }
+}
