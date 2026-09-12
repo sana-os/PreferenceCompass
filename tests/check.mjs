@@ -58,3 +58,20 @@ for(const lang of C.LANGS){
  element('confirmReset').handlers.click();assert.equal(element('progressCount').textContent,'0 / 100');
 }
 console.log('PASS: all language application startups, full response updates, review, download handlers and reset (minimal DOM).');
+// Arabic integration: direction, placeholder parity, original text and old formats.
+for(const lang of C.LANGS){
+ const u=read('src/locales/'+lang+'.ui.json'),en=read('src/locales/en.ui.json');
+ for(const k of Object.keys(en))assert.deepEqual((u[k].match(/\{[^}]+\}/g)||[]).sort(),(en[k].match(/\{[^}]+\}/g)||[]).sort(),lang+' placeholder '+k);
+ for(const route of ['', 'about/','guide/','questions/','privacy/','terms/'])assert(fs.readFileSync(path.join(root,'dist',lang,route,'index.html'),'utf8').includes('dir="'+(lang==='ar'?'rtl':'ltr')+'"'));
+}
+const arabicNote='أفضل أن تسألني أولًا. Keep JSON unchanged.\nهذا سياق، وليس حكمًا ثابتًا.';
+let arAnswers=C.applyBatch({},ids.map(questionId=>({questionId,responseStatus:'unknown'})),ids,'ar',now);
+arAnswers=C.applyBatch(arAnswers,[{questionId:ids[0],freeText:arabicNote,freeTextLanguage:'ar'}],ids,'ar',now);
+const arData={language:'en',categories:bank.en,canonical:bank.en,allQuestions:flat,ui:read('src/locales/en.ui.json'),docs:read('src/locales/en.docs.json'),schema,protocol:read('src/protocol.json'),termsEnglish:'test'};
+const arExport=C.envelope(arData,arAnswers,now);validate(arExport,schema);
+assert.equal(arExport.initialObservations[0].freeText,arabicNote);
+assert.equal(arExport.initialObservations[0].freeTextLanguage,'ar');
+assert.equal(arExport.initialObservations[0].responseLanguage,'ar');
+for(const v of ['1.1.0','1.1.1'])assert.equal(fs.readFileSync(path.join(root,'src/legacy/relationship-portability-'+v+'.schema.json'),'utf8'),fs.readFileSync(path.join(root,'dist/spec/relationship-portability-'+v+'.schema.json'),'utf8'));
+assert(fs.readFileSync(path.join(root,'dist/ar/guide/index.html'),'utf8').includes('<bdi dir="ltr">alpha/(alpha+beta)</bdi>'));
+console.log('PASS: Arabic mixed-language original text, RTL page attributes, UI placeholders and preserved legacy schemas.');

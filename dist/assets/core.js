@@ -1,6 +1,6 @@
 (function(root) {
   'use strict';
-  const LANGS=['en','es','ja','zh-hans','zh-hant','pt-br','fr','de'];
+  const LANGS=['en','es','ja','zh-hans','zh-hant','pt-br','fr','de','ar'];
   const STATES=['answered','unknown','context_dependent','not_applicable','declined'];
   function status(a) {
     if(!a) return 'unanswered';
@@ -60,7 +60,7 @@
         questionDisplayed:source.text,selectedOptionDisplayed:Number.isInteger(a.optionIndex)?source.options[a.optionIndex].label:null,
         responseLanguage:a.responseLanguage,freeText:a.freeText?.trim()?a.freeText:null,freeTextLanguage:a.freeText?.trim()?a.freeTextLanguage:'und',updatedAt:a.updatedAt};
     });
-    return {format:'relationship-portability',formatVersion:'1.1.1',protocolVersion:'1.1.0',language:data.language,generatedAt:now,
+    return {format:'relationship-portability',formatVersion:'1.1.2',protocolVersion:'1.1.0',language:data.language,generatedAt:now,
       creator:{name:'Deshimaru Sakaguchi',website:'https://deshimarusakaguchi.com/',project:'https://preferencecompass.info/'},
       usageTerms:{version:'1.0.0',text:data.termsEnglish,url:'https://preferencecompass.info/en/terms/'},
       embeddedSchema:data.schema,protocol:data.protocol,

@@ -343,3 +343,16 @@ select, textarea { max-width: 100%; min-width: 0; }
 .quickstart p { margin-top:.4rem; }
 .guide-return { display:inline-block; padding:.65rem 1rem; border:1px solid var(--blue); border-radius:8px; font-weight:700; }
 @media(max-width:620px){.quickstart{padding:1rem;}.guide-entry{padding:.5rem .8rem;}}
+
+/* Arabic: mirror reading order, while preserving literal Latin data. */
+html[dir="rtl"] body { font-family: Tahoma, Arial, system-ui, sans-serif; line-height: 1.8; }
+html[dir="rtl"] h1, html[dir="rtl"] .eyebrow { font-family: inherit; letter-spacing: normal; }
+html[dir="rtl"] .category-button { text-align: right; }
+html[dir="rtl"] .rail { padding-right: 0; padding-left: 8px; }
+html[dir="rtl"] .option-text { font-size: 1rem; }
+html[dir="rtl"] .document blockquote { border-left: 0; border-right: 4px solid var(--blue); }
+html[dir="rtl"] .document ol { padding-left: 0; padding-right: 1.5rem; }
+html[dir="rtl"] .quickstart li { padding-left: 0; padding-right: .25rem; }
+html[dir="rtl"] pre, html[dir="rtl"] code { direction: ltr; unicode-bidi: isolate; text-align: left; }
+.answer-note, textarea[dir="auto"] { text-align: start; }
+@media(max-width:900px) { html[dir="rtl"] .rail { padding-left: 0; } }

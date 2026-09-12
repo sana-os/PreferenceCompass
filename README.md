@@ -2,7 +2,7 @@
 
 An experimental, portable starting point for human–AI relationships. Created by [Deshimaru Sakaguchi](https://deshimarusakaguchi.com/). [Project](https://preferencecompass.info/) · [X](https://x.com/Deshimaru_S).
 
-100 questions across 10 categories, with English, Spanish, Japanese, Simplified Chinese, Traditional Chinese, Brazilian Portuguese French and German editions. All questions require a response before export; unknown, context dependent, not applicable and declined are valid responses. Each question offers four choices and optional original-language text. Answers stay in browser local storage; the application does not submit them to a server.
+100 questions across 10 categories, with English, Spanish, Japanese, Simplified Chinese, Traditional Chinese, Brazilian Portuguese, French, German and Arabic editions. All questions require a response before export; unknown, context dependent, not applicable and declined are valid responses. Each question offers four choices and optional original-language text. Answers stay in browser local storage; the application does not submit them to a server.
 
 The Markdown and JSON exports include the full schema, handling instructions, original responses and initial relationship observations. Later AI-generated sheets can contain any number of relationship items. They preserve contextual agreements, boundaries, uncertainties and repairs—not task handoffs. Current user instructions take priority. Initial responses have no inferred numeric confidence. The optional, narrowly scoped Beta–Bernoulli procedure is experimental, not a validated measure of personality or trust.
 
@@ -19,7 +19,7 @@ Deploy `dist/` as the web root. Do not open the HTML via file://: routes and ass
 
 ## Structure
 
-- `src/locales/`: eight editions of the questions, interface and public documentation.
+- `src/locales/`: nine editions of the questions, interface and public documentation.
 - `src/core.js`: response validation and self-contained export generation.
 - `src/app.js`, `src/styles.css`: accessible responsive questionnaire and review interface.
 - `src/schema.json`, `src/protocol.json`: versioned relationship-portability format and handling protocol.
@@ -38,3 +38,7 @@ Use and modification, including commercial use, are permitted under [LICENSE.md]
 ## German edition update
 
 Public release 1.1.0 adds German at /de/. Schema 1.1.1 adds the de language code; protocol 1.1.0 and question IDs are unchanged. The original schema 1.1.0 remains publicly available. Existing exported files remain in their original format and need no conversion. New exports in every language use schema 1.1.1. German translations are AI-assisted and await independent native-speaker review.
+
+## Arabic edition update
+
+Public release 1.2.0 adds Modern Standard Arabic at /ar/ with RTL layout and isolated Latin notation. Schema 1.1.2 adds ar; both earlier schemas remain public unchanged. Protocol 1.1.0 and question/option IDs are unchanged. See [UPDATE_AR_JA.md](UPDATE_AR_JA.md) for update instructions.

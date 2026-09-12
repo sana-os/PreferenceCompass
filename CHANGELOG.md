@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — Arabic edition
+
+- Added Modern Standard Arabic questions, UI, handling guide and public documents.
+- Added RTL layout, direction-aware keyboard navigation and mixed-language text isolation.
+- Updated navigation, sitemap and llms.txt for nine editions.
+- Schema 1.1.2 adds ar; schemas 1.1.0 and 1.1.1 are preserved unchanged. Protocol remains 1.1.0.
+- Extended validation for Arabic provenance, placeholder parity and page direction.
+
 ## Public release 1.0.0
 
 - Seven language/script editions, each with 100 aligned questions and four choices.

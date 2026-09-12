@@ -14,7 +14,7 @@ Questionnaires provide initial observations, not personality scores or establish
 
 - [Handling protocol](https://preferencecompass.info/spec/handling-protocol-1.1.0.md)
 - [Machine protocol](https://preferencecompass.info/spec/handling-protocol-1.1.0.json)
-- [JSON Schema](https://preferencecompass.info/spec/relationship-portability-1.1.1.schema.json)
+- [JSON Schema](https://preferencecompass.info/spec/relationship-portability-1.1.2.schema.json)
 
 ## Languages
 
@@ -42,3 +42,6 @@ Questionnaires provide initial observations, not personality scores or establish
 - [Deutsch](https://preferencecompass.info/de/index.md)
 - [Deutsch — handling guide](https://preferencecompass.info/de/guide.md)
 - [Deutsch — questions](https://preferencecompass.info/de/questions.md)
+- [العربية](https://preferencecompass.info/ar/index.md)
+- [العربية — handling guide](https://preferencecompass.info/ar/guide.md)
+- [العربية — questions](https://preferencecompass.info/ar/questions.md)

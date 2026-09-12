@@ -1,0 +1,487 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://preferencecompass.info/spec/relationship-portability-1.1.1.schema.json",
+  "title": "Relationship Portability Sheet 1.1.1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "const": "relationship-portability"
+    },
+    "formatVersion": {
+      "const": "1.1.1"
+    },
+    "protocolVersion": {
+      "const": "1.1.0"
+    },
+    "language": {
+      "enum": [
+        "en",
+        "es",
+        "ja",
+        "zh-hans",
+        "zh-hant",
+        "pt-br",
+        "fr",
+        "de",
+        "und"
+      ]
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "creator": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string"
+        },
+        "project": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "website",
+        "project"
+      ]
+    },
+    "usageTerms": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "version",
+        "text",
+        "url"
+      ]
+    },
+    "embeddedSchema": {
+      "type": "object"
+    },
+    "protocol": {
+      "type": "object",
+      "required": [
+        "version",
+        "scope",
+        "formatRules",
+        "responseStates",
+        "receivingWorkflow",
+        "updateWorkflow",
+        "numericalModel",
+        "handoffPrompt",
+        "priority",
+        "validation"
+      ]
+    },
+    "localizedHandlingGuide": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "language": {
+          "enum": [
+            "en",
+            "es",
+            "ja",
+            "zh-hans",
+            "zh-hant",
+            "pt-br",
+            "fr",
+            "de",
+            "und"
+          ]
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "paragraphs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "title",
+              "paragraphs"
+            ]
+          }
+        },
+        "handoffPrompt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "sections",
+        "handoffPrompt"
+      ]
+    },
+    "questionnaire": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "translationVersion": {
+          "type": "string"
+        },
+        "completedAt": {
+          "type": "string"
+        },
+        "responded": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "translationVersion",
+        "completedAt",
+        "responded",
+        "total"
+      ]
+    },
+    "initialObservations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "questionId": {
+            "type": "string"
+          },
+          "responseStatus": {
+            "enum": [
+              "answered",
+              "unknown",
+              "context_dependent",
+              "not_applicable",
+              "declined"
+            ]
+          },
+          "selectedOptionId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "questionCanonical": {
+            "type": "string"
+          },
+          "selectedOptionCanonical": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "questionDisplayed": {
+            "type": "string"
+          },
+          "selectedOptionDisplayed": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "responseLanguage": {
+            "enum": [
+              "en",
+              "es",
+              "ja",
+              "zh-hans",
+              "zh-hant",
+              "pt-br",
+              "fr",
+              "de",
+              "und"
+            ]
+          },
+          "freeText": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "freeTextLanguage": {
+            "enum": [
+              "en",
+              "es",
+              "ja",
+              "zh-hans",
+              "zh-hant",
+              "pt-br",
+              "fr",
+              "de",
+              "und"
+            ]
+          },
+          "updatedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "questionId",
+          "responseStatus",
+          "selectedOptionId",
+          "questionCanonical",
+          "selectedOptionCanonical",
+          "questionDisplayed",
+          "selectedOptionDisplayed",
+          "responseLanguage",
+          "freeText",
+          "freeTextLanguage",
+          "updatedAt"
+        ]
+      }
+    },
+    "relationshipData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "revision": {
+          "type": "string"
+        },
+        "parentRevision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retiredIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "initial_observation",
+                  "shared_understanding",
+                  "agreement",
+                  "misunderstanding_and_repair",
+                  "boundary",
+                  "open_question",
+                  "hypothesis"
+                ]
+              },
+              "statement": {
+                "type": "string"
+              },
+              "language": {
+                "enum": [
+                  "en",
+                  "es",
+                  "ja",
+                  "zh-hans",
+                  "zh-hant",
+                  "pt-br",
+                  "fr",
+                  "de",
+                  "und"
+                ]
+              },
+              "context": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "active",
+                  "unresolved",
+                  "superseded",
+                  "withdrawn"
+                ]
+              },
+              "provenance": {
+                "enum": [
+                  "user_explicit",
+                  "ai_hypothesis",
+                  "user_confirmed_agreement"
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "observedAt": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "source",
+                    "summary",
+                    "observedAt"
+                  ]
+                }
+              },
+              "uncertainty": {
+                "type": "string"
+              },
+              "supersedes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "belief": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "model": {
+                        "const": "beta-bernoulli-explicit-v1"
+                      },
+                      "hypothesis": {
+                        "type": "string"
+                      },
+                      "context": {
+                        "type": "string"
+                      },
+                      "alpha": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "beta": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "updates": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "evidenceId": {
+                              "type": "string"
+                            },
+                            "outcome": {
+                              "enum": [
+                                "supports",
+                                "contradicts"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "evidenceId",
+                            "outcome"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "model",
+                      "hypothesis",
+                      "context",
+                      "alpha",
+                      "beta",
+                      "updates"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "kind",
+              "statement",
+              "language",
+              "context",
+              "status",
+              "provenance",
+              "evidence",
+              "uncertainty",
+              "supersedes",
+              "belief"
+            ]
+          }
+        }
+      },
+      "required": [
+        "revision",
+        "parentRevision",
+        "retiredIds",
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "format",
+    "formatVersion",
+    "protocolVersion",
+    "language",
+    "generatedAt",
+    "creator",
+    "usageTerms",
+    "embeddedSchema",
+    "protocol",
+    "localizedHandlingGuide",
+    "questionnaire",
+    "initialObservations",
+    "relationshipData"
+  ]
+}
