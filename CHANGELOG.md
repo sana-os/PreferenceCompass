@@ -11,3 +11,10 @@
 - Static Cloudflare Pages build with no runtime dependencies.
 
 This supersedes the earlier English prototype. Local legacy responses are sanitized on migration; unknown input languages remain marked undetermined. Translations have not been independently reviewed.
+
+## Public release 1.1.0
+
+- German: 100 questions, 400 choices, interface, public documents and usage guide.
+- Eight language/script editions and 48 localized HTML routes.
+- Schema 1.1.1 adds de; published schema 1.1.0 is preserved byte-for-byte. Protocol remains 1.1.0.
+- Previous mobile repairs and content-addressed CSS retained.

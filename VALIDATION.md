@@ -1,16 +1,7 @@
-# Validation record
+# Validation — German edition, public release 1.1.0
 
-Public release 1.0.0. Run `node scripts/build.mjs` and `node tests/check.mjs` to reproduce.
+Commands: node scripts/build.mjs; node tests/check.mjs.
 
-Passed:
+Passed: 8 editions × 100 aligned questions, four stable options each, complete JSON/Markdown exports, response status handling, original text/language preservation, variable-length later updates, application handlers under a minimal DOM, 1,002 local HTML links and 48 sitemap pages. German UI placeholders match English; all editions link to Deutsch. Legacy schema 1.1.0 is preserved byte-for-byte; new schema 1.1.1 permits de. Protocol 1.1.0 is unchanged.
 
-- Seven editions × 100 unique aligned questions and four stable option IDs.
-- Complete multilingual JSON and Markdown exports; exact JSON recovery from Markdown with hostile backtick/script text kept as data.
-- Initial schema constraints, null beliefs, original note language and response-language preservation.
-- Missing-response export rejection; valid refusal and uncertainty; invalid and conflicting input rejection; atomic batch failure.
-- Updated relationship item counts of 0, 1 and 101 accepted by the schema.
-- 787 local HTML links/assets resolve; all 42 localized pages occur in sitemap.xml; robots.txt has no Disallow directive.
-- Application startup, response updates, review, both download handlers and reset in seven languages using a minimal DOM harness.
-- JavaScript syntax checks.
-
-Limits: tests check the JSON Schema vocabulary used by this schema, not all JSON Schema keywords. Future AI-written updates require the semantic checks in the handling protocol (evidence identity, numeric counts, context, lineage), beyond structural validation. No native-speaker review, real-browser visual/accessibility audit, real download dialog, production DNS/TLS check or Cloudflare deployment is represented as completed. Translation quality and the relational model remain experimental.
+The tests check the JSON Schema vocabulary used by this schema. They do not verify the truth of evidence in future AI-written updates. Independent native-speaker review and real-browser visual QA have not been performed. No production deployment is claimed.

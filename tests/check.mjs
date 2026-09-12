@@ -39,10 +39,10 @@ assert.equal(C.status({freeText:'   '}),'unanswered');assert.equal(C.status({opt
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);}
 const files=walk(path.join(root,'dist'));let links=0;
 for(const file of files.filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(file,'utf8');for(const m of html.matchAll(/(?:href|src)="(\/[^"#]*)/g)){let target=path.join(root,'dist',m[1]);if(target.endsWith('/'))target+='index.html';assert(fs.existsSync(target),file+' broken '+m[1]);links++;}}
-const sitemap=fs.readFileSync(path.join(root,'dist/sitemap.xml'),'utf8');assert.equal([...sitemap.matchAll(/<loc>/g)].length,42);
+const sitemap=fs.readFileSync(path.join(root,'dist/sitemap.xml'),'utf8');assert.equal([...sitemap.matchAll(/<loc>/g)].length,C.LANGS.length*6);
 for(const l of C.LANGS)for(const suffix of ['', 'about/','guide/','privacy/','terms/','questions/'])assert(sitemap.includes('https://preferencecompass.info/'+l+'/'+suffix+'</loc>'));
 assert(!fs.readFileSync(path.join(root,'dist/robots.txt'),'utf8').includes('Disallow:'));
-console.log(`PASS: ${checks} complete multilingual export/state suites; variable-length updates; schema constraints; ${links} local links; 42 sitemap pages.`);
+console.log(`PASS: ${checks} complete multilingual export/state suites; variable-length updates; schema constraints; ${links} local links; ${C.LANGS.length*6} sitemap pages.`);
 // Exercise startup, review and download handlers with a minimal DOM, without a browser.
 const {default:vm}=await import('node:vm');
 for(const lang of C.LANGS){
@@ -57,4 +57,4 @@ for(const lang of C.LANGS){
  registered.download_preference_profile.execute({format:'json'});registered.download_preference_profile.execute({format:'markdown'});assert.equal(downloads.length,2);
  element('confirmReset').handlers.click();assert.equal(element('progressCount').textContent,'0 / 100');
 }
-console.log('PASS: all seven application startups, full response updates, review, download handlers and reset (minimal DOM).');
+console.log('PASS: all language application startups, full response updates, review, download handlers and reset (minimal DOM).');
