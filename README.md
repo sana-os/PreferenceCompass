@@ -42,7 +42,3 @@ Public release 1.1.0 adds German at /de/. Schema 1.1.1 adds the de language code
 ## Arabic edition update
 
 Public release 1.2.0 adds Modern Standard Arabic at /ar/ with RTL layout and isolated Latin notation. Schema 1.1.2 adds ar; both earlier schemas remain public unchanged. Protocol 1.1.0 and question/option IDs are unchanged. See [UPDATE_AR_JA.md](UPDATE_AR_JA.md) for update instructions.
-
-Created by [Deshimaru Sakaguchi](https://deshimarusakaguchi.com/).
-
-Website: [Premise Builder](https://premisebuilder.info/)
